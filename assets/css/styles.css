@@ -25,6 +25,14 @@ body {
     overflow-x: hidden;
 }
 
+ul {
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    color: #0c65b4;
+    text-align: center;
+
+
 /* fonts*/
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
