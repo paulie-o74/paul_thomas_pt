@@ -1,4 +1,8 @@
+/* fonts*/
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+/* reset*/
 
 * {
     margin: 0;
@@ -6,8 +10,27 @@
     border: 0;
 }
 
+/* base styles*/
+
 body {
     font-family: Roboto, sans-serif;
     font-weight: 350;
 }
 
+/* mobile styles*/
+
+
+/* small tablet styles*/
+@media screen and (min-width: 620px){ 
+    
+}
+/* large tablets & laptops*/
+@media screen and (min-width: 960px) {
+
+}
+   
+    
+/* desktop styles*/
+@media screen and (min-width: 1200px){
+    
+}
