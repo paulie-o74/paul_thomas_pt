@@ -1,6 +1,8 @@
-/* fonts*/
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+/* variables*/
+:root{
+    --primary: #f2f1e9;
+    --secondary: #0c65b4; 
+}
 
 /* reset*/
 
@@ -8,6 +10,10 @@
     margin: 0;
     padding: 0;
     border: 0;
+    text-decoration: none;
+}
+li {
+    list-style-type: none; 
 }
 
 /* base styles*/
@@ -15,7 +21,13 @@
 body {
     font-family: Roboto, sans-serif;
     font-weight: 350;
+    background: #f2f1e9;
+    overflow-x: hidden;
 }
+
+/* fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 /* mobile styles*/
 
@@ -32,5 +44,5 @@ body {
     
 /* desktop styles*/
 @media screen and (min-width: 1200px){
-    
+
 }
