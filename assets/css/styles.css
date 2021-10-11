@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 /* variables*/
 :root{
     --primary: #f2f1e9;
@@ -33,9 +35,7 @@ ul {
     text-align: center;
 
 
-/* fonts*/
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 /* mobile styles*/
 
