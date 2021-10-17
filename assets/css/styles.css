@@ -37,7 +37,10 @@ ul {
     text-align: center;
 }
 
-
+img {
+    height: auto;
+    width: 25%;
+}
 .profiler {
     float:left;
     width: 25%;
