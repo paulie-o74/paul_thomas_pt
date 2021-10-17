@@ -82,7 +82,9 @@ nav {
     left: 0;
     background: var(--secondary);
     width: 100%;
-    display: none;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 500ms ease-in-out;
 }
 
 nav ul {
@@ -100,6 +102,8 @@ nav a {
     text-decoration: none;
     font-size: 1.2rem;
     text-transform: uppercase;
+    opacity: 0;
+    transition: opacity 100ms ease-in-out ;
 }
 
 nav a:hover {
@@ -107,7 +111,12 @@ nav a:hover {
 }
 
 .nav-toggle:checked ~ nav {
-    display: block;
+    transform: scale(1, 1);
+}
+
+.nav-toggle:checked ~ nav a {
+    opacity: 1;
+    transition: opacity 250ms ease-in-out 250ms;
 }
 
 /* navigation styles start  */
@@ -179,20 +188,52 @@ img {
 
 
 
-/* mobile styles*/
 
 
 /* small tablet styles*/
-@media screen and (min-width: 620px){ 
-    
+@media screen and (min-width: 481px){ 
+    .nav-toggle-label {
+        display: none;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr auto minmax(350px, 1fr) 1fr;
+    }
+
+    #logo {
+        grid-column: 1 / 2;
+    }
+
+    nav {
+        all: unset;
+        grid-column: 3/4;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    nav li {
+        margin-left: 3em;
+        margin-bottom: 0;
+    }
+
+    nav a {
+        opacity: 1;
+    }
 }
 /* large tablets & laptops*/
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 769px) {
 
 }
    
     
 /* desktop styles*/
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1025px){
 
 }
