@@ -26,8 +26,11 @@ body {
     font-weight: 350;
     background: #f2f1e9;
     overflow-x: hidden;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
+    color: #404040;
 }
+
+
 
 ul {
     width: 100px;
@@ -35,6 +38,17 @@ ul {
     padding: 20px 15px;
     color: #0c65b4;
     text-align: center;
+}
+
+.site-nav {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
+}
+
+.site-nav li {
+    float: right;
+    list-style-type: none;
 }
 
 img {
@@ -46,7 +60,11 @@ img {
     width: 25%;
 }
 
-
+#logo {
+        float: left;
+        width: 10%;
+        height: auto;
+}
 
 /* mobile styles*/
 
