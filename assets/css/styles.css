@@ -29,7 +29,7 @@ body {
 }
 
 header {
-    background: var(--secondary);
+    background: var(--primary);
     text-align: center;
     position: fixed;
     width: 100%;
@@ -58,7 +58,7 @@ a:visited {
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
     display: block;
-    background: var(--primary);
+    background: var(--secondary);
     height: 2px;
     width: 2em;
     border-radius: 2px;
@@ -85,7 +85,7 @@ nav {
     text-align: left;
     top: 100%;
     left: 0;
-    background: var(--secondary);
+    background: var(--primary);
     width: 100%;
     transform: scale(1, 0);
     transform-origin: top;
@@ -105,14 +105,14 @@ nav li {
 
 nav a {
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
     opacity: 0;
     transition: opacity 100ms ease-in-out ;
 }
 
 nav a:hover {
-    color: var(--primary);
+    color: #363636;
 }
 
 .nav-toggle:checked ~ nav {
@@ -123,6 +123,7 @@ nav a:hover {
     opacity: 1;
     transition: opacity 250ms ease-in-out 250ms;
 }
+
 
 /* navigation styles start  */
 
@@ -191,6 +192,13 @@ img {
         cursor: pointer;
 } */
 
+#logo {
+    float: none;
+    width: auto;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+}
 
 
 
@@ -237,7 +245,7 @@ img {
         content: '';
         display: block;
         height: 5px;
-        background: black;
+        background: #363636;
         position: absolute;
         top: -.75rem;
         left: 0;
