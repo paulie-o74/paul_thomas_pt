@@ -10,6 +10,9 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    
+    
 }
 
 body {
@@ -24,17 +27,19 @@ body {
 
 
 .content {
-    height: 50vh;
+    height: 80vh;
     background: #f2f1e9;
     display: grid;
-    place-items: center;
+    place-items: top;
+    padding-top: 67px;
+    overflow: scroll;
 }
 
 header {
     background: var(--primary);
     text-align: center;
     position: fixed;
-    width: 100%;
+    width: 100%;  
 }
 
 
@@ -258,6 +263,10 @@ img {
     }
     nav a:hover::before {
         transform: scale(1, 1);
+
+    .content {
+        padding-top: 0px;
+    }
     }
 }
 /* large tablets & laptops*/
