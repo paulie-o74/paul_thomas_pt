@@ -21,8 +21,10 @@ body {
     font-weight: 350;
 }
 
+
+
 .content {
-    height: 200vh;
+    height: 50vh;
     background: #f2f1e9;
     display: grid;
     place-items: center;
@@ -123,6 +125,7 @@ nav a:hover {
     opacity: 1;
     transition: opacity 250ms ease-in-out 250ms;
 }
+
 
 
 /* navigation styles start  */
