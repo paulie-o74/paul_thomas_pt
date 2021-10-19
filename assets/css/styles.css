@@ -25,8 +25,20 @@ body {
 h1, h2, h3, h4 {
     font-family: Roboto, sans-serif;
 }
+h2 {
+    font-size: 1.4em;
+}
+h3 {
+    font-size: 1.25em;
+}
+h4 {
+    font-size: 1.15em;
+}
+p {
+    font-size: 1em;
+}
 
-/* Button styling */
+/* Button and input styling */
 #button {
     background: none;
     border: 1px solid black;
@@ -47,7 +59,6 @@ input, textarea, select {
     border-radius: 5px;
     color: #363636;
 }
-
 
 /* Header & nav bar styling */
 
@@ -170,16 +181,71 @@ nav a:hover {
 /* First sign up attempt  */
 
 .pitch1 {
-   
+   height: auto;
+   padding: 20px;
+   text-align: center;
+}
+
+.pitch1-text { 
+
+}
+
+.pitch-1-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 5%;
+    text-align: center;
+    gap: 20%;
 }
 
 /* How does it work? */
+
+.how-it-works {
+    height: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.how {
+    display: grid;
+    padding: 2% 0px;
+}
+
+#step1 {
+    align-content: center;
+    border: 1px solid black;
+    padding: 1%;
+    margin: 5px 0px;
+    border-radius: 5px;
+}
+
+#step2 {
+    align-content: center;
+    border: 1px solid black;
+    padding: 1%;
+    margin: 5px 0px;
+    border-radius: 5px;
+}
+#step3 {
+    align-content: center;
+    border: 1px solid black;
+    padding: 1%;
+    margin: 5px 0px;
+    border-radius: 5px;
+}
+#step4 {
+    align-content: center;
+    border: 1px solid black;
+    padding: 1%;
+    margin: 5px 0px;
+    border-radius: 5px;
+}
 
 /* Footer and social links  */
 
 .footer {
     height: 150px;
-    background-color: yellow;
+    background-color: white;
     align-items: center;
     margin: 0;
 }
@@ -197,7 +263,7 @@ nav a:hover {
 .footer i {
     font-size: 3rem;
     padding: 5%;
-    color: blue;
+    color: #363636;
 }
 
 /* Media queries */
@@ -262,16 +328,24 @@ nav a:hover {
 
 /* large tablets & laptops*/
 @media screen and (min-width: 769px) {
-    
+     body {
+         font-size: 18px;
+     }
 }
    
 /* desktop styles*/
 @media screen and (min-width: 1025px){
+    body {
+        font-size: 18px;
+    }
+    
     .hero-container {
         height: 80vh;
         display: grid;
         place-items: center;
         padding-top: 67px;
         overflow: hidden;
-    }  
+    }
+
+    
 }
