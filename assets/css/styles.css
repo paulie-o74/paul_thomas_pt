@@ -1,45 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Source+Sans+Pro&display=swap');
 
 /* variables*/
 :root{
-    --primary: #f2f1e9;
-    --secondary: #0c65b4; 
+    /* main colors go here */
 }
 
-/* reset*/
-
+/* Full page styles */
 * {
     margin: 0;
+    list-style-type: none; 
+    padding: 0;
+    text-decoration: none;
 }
 
 body {
     margin: 0;
-    background: #f2f1e9;
-    text-decoration: none;
+    background: white;
     line-height: 1.5;
-    font-family: roboto, sans-serif;
+    font-family: source-sans-pro, sans-serif;
     font-weight: 350;
 }
 
-.hero-container {
-    background: #f2f1e9;
-    display: grid;
-    place-items: center;
-    padding-top: 67px;
-    overflow: hidden;
-}
-.hero-image {
-    width: 100%;
-    height: auto;
+h1, h2, h3, h4 {
+    font-family: Roboto, sans-serif;
 }
 
+/* Header & nav bar styling */
+
 header {
-    background: var(--primary);
+    background: white;
     text-align: center;
     position: fixed;
     width: 100%;  
 }
-
 
 .nav-toggle {
     display: none;
@@ -63,7 +57,7 @@ a:visited {
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
     display: block;
-    background: var(--secondary);
+    background: blue;
     height: 2px;
     width: 2em;
     border-radius: 2px;
@@ -84,13 +78,12 @@ a:visited {
     top: 7px;
 }
 
-
 nav {
     position: absolute;
     text-align: left;
     top: 100%;
     left: 0;
-    background: var(--primary);
+    background: white;
     width: 100%;
     transform: scale(1, 0);
     transform-origin: top;
@@ -137,28 +130,57 @@ nav a:hover {
     cursor: pointer;
 }
 
+/* Hero image styling  */
+
+.hero-container {
+    
+    display: grid;
+    place-items: center;
+    padding-top: 67px;
+    overflow: hidden;
+}
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+/* First sign up attempt  */
+
+/* How does it work? */
+
+/* Footer and social links  */
+
+.footer {
+    height: 150px;
+    background-color: yellow;
+    align-items: center;
+    margin: 0;
+}
+
+.footer ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+.footer ul > li {
+    display: inline;
+}
+
+.footer i {
+    font-size: 3rem;
+    padding: 5%;
+    color: blue;
+}
+
 /* Media queries */
 
 @media screen and (min-width: 442px) {
-    .hero-container {
-        /* height: 55vh; */
-        background: #f2f1e9;
-        display: grid;
-        place-items: center;
-        padding-top: 67px;
-        overflow: hidden;
-    }  
+    
 }
 
 @media screen and (min-width: 600px) {
-    .hero-container {
-        /* height: 65vh; */
-        background: #f2f1e9;
-        display: grid;
-        place-items: center;
-        padding-top: 67px;
-        overflow: hidden;
-    }  
+   
 }
 
 /* small tablet styles*/
@@ -166,16 +188,13 @@ nav a:hover {
     .nav-toggle-label {
         display: none;
     }
-
     header {
         display: grid;
         grid-template-columns: 1fr auto minmax(600px, 7fr) 1fr;
     }
-
     #logo {
         grid-column: 1 / 2;
     }
-
     nav {
         all: unset;
         grid-column: 3 / 4;
@@ -183,22 +202,18 @@ nav a:hover {
         justify-content: flex-end;
         align-items: center;
     }
-
     nav .site-nav {
         display: flex;
         
     }
-
     nav li {
         margin-left: 2em;
         margin-bottom: 0;
     }
-
     nav a {
         opacity: 1;
         position: relative;
     }
-
     nav a::before {
         content: '';
         display: block;
@@ -213,65 +228,20 @@ nav a:hover {
     }
     nav a:hover::before {
         transform: scale(1, 1);
-
-    .content {
-        padding-top: 0px;
-    }
-    }
-    .hero-container {
-        /* height: 75vh; */
-        background: #f2f1e9;
-        display: grid;
-        place-items: center;
-        padding-top: 67px;
-        overflow: hidden;
-    }  
-}
-
-.footer {
-    height: 150px;
-    background-color: yellow;
-    align-items: center;
-    margin: 0;
-}
-
-.footer ul {
-    list-style-type: none;
-    text-align: center;
-    padding: 0;
-    align-items: center;
-    vertical-align: middle;
-    
-}
-
-.footer ul > li {
-    display: inline;
-}
-
-.footer i {
-    font-size: 3rem;
-    padding: 5%;
-    color: var(--secondary);
+        .content {
+        padding-top: 0px;}
+    } 
 }
 
 /* large tablets & laptops*/
 @media screen and (min-width: 769px) {
-    .hero-container {
-        /* height: 80vh; */
-        background: #f2f1e9;
-        display: grid;
-        place-items: center;
-        padding-top: 67px;
-        overflow: hidden;
-    }  
+    
 }
    
-    
 /* desktop styles*/
 @media screen and (min-width: 1025px){
     .hero-container {
-        /* height: 85vh; */
-        background: #f2f1e9;
+        height: 80vh;
         display: grid;
         place-items: center;
         padding-top: 67px;
