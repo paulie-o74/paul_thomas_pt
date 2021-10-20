@@ -40,17 +40,17 @@ p {
 
 /* Button and input styling */
 .button {
-    background: none;
-    border: 1px solid black;
-    color: brown; 
+    background: #2f47ff;
+    border: 1px solid #2f47ff;
+    color: white; 
     padding: 4px 4px;
     border-radius: 5px;
     text-transform: uppercase;
 }
 
 .button:hover {
-    color: black;
-    background: brown;
+    color: #2f47ff;
+    background: white;
 }
 
 input, textarea, select {
@@ -73,7 +73,7 @@ header {
     display: none;
 }
 
-a:visited {
+a {
     color: inherit;
 }
 
@@ -202,12 +202,16 @@ nav a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 9px;
+    gap: 5px;
+    place-items: center;
 }
 
 .pitch-1-images {
-    height: 115px;
-    width: 115px;
+    
+    height: 110px;
+    width: auto;
+    overflow: hidden;
+    
 }
 
 /* How does it work? */
