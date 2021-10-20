@@ -218,8 +218,8 @@ nav a:hover {
 
 .how-it-works {
     height: auto;
-    padding: 20px;
-    text-align: center;
+    padding: 20px 20px 5px;
+    text-align: justify;
 }
 
 .how {
@@ -228,11 +228,11 @@ nav a:hover {
 }
 
 #step1 {
-    display: grid;
+    
     align-content: center;
     border: 1px solid #dddddd;
-    padding: 1%;
-    margin: 5px 0px;
+    padding: 5%;
+    margin: 20px 0px;
     border-radius: 5px;
     background: #dddddd;
 }
@@ -240,24 +240,35 @@ nav a:hover {
 #step2 {
     align-content: center;
     border: 1px solid black;
-    padding: 1%;
-    margin: 5px 0px;
+    padding: 5%;
+    margin: 20px 0px;
     border-radius: 5px;
 }
 #step3 {
     align-content: center;
     border: 1px solid #dddddd;
-    padding: 1%;
-    margin: 5px 0px;
+    padding: 5%;
+    margin: 20px 0px;
     border-radius: 5px;
     background: #dddddd;
 }
 #step4 {
     align-content: center;
     border: 1px solid black;
-    padding: 1%;
-    margin: 5px 0px;
+    padding: 5%;
+    margin: 20px 0px;
     border-radius: 5px;
+}
+
+.bold {
+    font-weight: bolder;
+    text-align: center;
+}
+
+.button-index {
+    display: grid;
+    padding: 10px 5%;
+    text-align: center;
 }
 
 /* Footer and social links  */
@@ -278,12 +289,14 @@ nav a:hover {
 
 .footer ul > li {
     display: inline;
+
 }
 
 .footer i {
     font-size: 3rem;
     padding: 5%;
     color: #363636;
+    
 }
 
 
