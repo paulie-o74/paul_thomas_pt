@@ -375,15 +375,39 @@ nav a:hover {
 }
 
 /* large tablets & laptops*/
-@media screen and (min-width: 769px) {
-     body {
+@media screen and (min-width: 768px) {
+    .body {
          font-size: 18px;
      }
+    
+    .how {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 5%;
+    }
+    #step3 {
+        align-content: center;
+        border: 1px solid black;
+        padding: 5%;
+        margin: 20px 0px;
+        border-radius: 5px;
+        background: white;
+    }
+    #step4 {
+        align-content: center;
+        border: 1px solid #dddddd;
+        padding: 5%;
+        margin: 20px 0px;
+        border-radius: 5px;
+        background: #dddddd;
+    }
+
 }
    
 /* desktop styles*/
 @media screen and (min-width: 1025px){
-    body {
+    .body {
         font-size: 18px;
     }
     
