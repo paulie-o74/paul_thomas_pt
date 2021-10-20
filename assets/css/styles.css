@@ -198,6 +198,18 @@ nav a:hover {
     gap: 20%;
 }
 
+.pitch-1-images-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 9px;
+}
+
+.pitch-1-images {
+    height: 115px;
+    width: 115px;
+}
+
 /* How does it work? */
 
 .how-it-works {
@@ -248,6 +260,7 @@ nav a:hover {
     background-color: white;
     align-items: center;
     margin: 0;
+    text-align: center;
 }
 
 .footer ul {
@@ -265,6 +278,7 @@ nav a:hover {
     padding: 5%;
     color: #363636;
 }
+
 
 /* Media queries */
 
