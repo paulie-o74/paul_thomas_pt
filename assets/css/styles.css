@@ -37,7 +37,7 @@ h4 {
 p {
     font-size: 1em;
 }
-
+/* index.html styles index.html styles index.html styles */
 /* Button and input styling */
 .button {
     background: #2f47ff;
@@ -279,6 +279,109 @@ nav a:hover {
     
 }
 
+/* about.html styles about.html styles about.html styles */
+
+.intro-image {
+    display: grid;
+    place-items: center;
+    padding: 67px 20px;
+    overflow: hidden;
+    }
+.profiler {
+    width: 80%;
+    height: auto;
+}
+
+.testimonials {
+    height: auto;
+   width: auto;
+   padding: 0px 20px;
+   text-align: center;
+}
+
+.testimonials p {
+    text-align: left;
+    font-style: italic;
+    padding: 20px;
+}
+
+.testimonials-extra {
+    display: none;
+}
+
+#philosophy {
+    height: auto;
+   width: auto;
+   padding: 20px 20px;
+   text-align: left;
+   border: 1px solid #dddddd;
+   margin: 20px 20px;
+    border-radius: 5px;
+    background: #dddddd;
+}
+
+#philosophy h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#credentials {
+    height: auto;
+    width: auto;
+    padding: 20px 20px;
+    text-align: left;
+    border: 1px solid white;
+    margin: 20px 20px;
+     border-radius: 5px;
+     background: #white;
+}
+
+#credentials h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#credentials li {
+    list-style-type: disc ;
+}
+
+#message {
+    height: auto;
+   width: auto;
+   padding: 20px 20px;
+   text-align: left;
+   border: 1px solid #dddddd;
+   margin: 20px 20px;
+    border-radius: 5px;
+    background: #dddddd;
+}
+
+#message h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#hobbies {
+    height: auto;
+    width: auto;
+    padding: 20px 20px;
+    text-align: left;
+    border: 1px solid white;
+    margin: 20px 20px;
+     border-radius: 5px;
+     background: #white;
+}
+
+#hobbies h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#hobbies li {
+    list-style-type: disc ;
+}
+
+
 /* Footer and social links  */
 
 .footer {
@@ -297,15 +400,20 @@ nav a:hover {
 
 .footer ul > li {
     display: inline;
-
 }
 
 .footer i {
     font-size: 3rem;
     padding: 5%;
     color: #363636;
-    
 }
+
+
+
+
+
+
+
 
 
 /* Media queries */
