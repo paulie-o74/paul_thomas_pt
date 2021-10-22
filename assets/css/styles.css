@@ -387,26 +387,30 @@ nav a:hover {
     height: 2400px;
     padding: 67px 20px 20px 20px;
     width: 100%;
+    text-align: center;
     
 }
 #name {
     padding: 20px 0;
     margin: 0;
     text-align: center;
+    text-transform: uppercase;
 }
 
 #center-about {
+
+    display: inline-block;
     padding-top: 20px;
     height: 335px;
     width: 335px;
 }
 
 .circle-container {
+    display: inline-block;
     height: 335px;
     width: 335px;
-    display: flex;
-    justify-content: center;
     background: center / contain no-repeat url(../images/profiler.jpeg);
+    border-radius: 50%;
 }
 
 
@@ -418,6 +422,7 @@ nav a:hover {
 
 .left-about-info h2 {
     text-align: center;
+    text-transform: uppercase;
     
     
 }
@@ -434,18 +439,66 @@ nav a:hover {
 
 .right-about-info h2 {
     text-align: center;
-    
-    
+    text-transform: uppercase;
+}
+
+.right-about-info p {
+    text-align: left;
 }
 
 
 /* testpage testpage testpage testpage testpage testpage testpage */
 
 
+/* group training group training group training group training */
+
+.group-intro {
+    padding-top: 67px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.group-intro {
+    text-align: center;
+}
+
+.group-intro p {
+    text-align: left;
+}
+
+.group-images {
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    
+}
+
+.group-images img {
+    padding-top: 20px;
+}
+
+.table-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.class-table {
+    padding: 20px;
+}
+
+.form-container form {
+    padding-top: 20px;
+    text-align: center;
+    max-width: 400px;
+}
+
+.form-container input {
+    
+}
 
 
-
-
+/* group training group training group training group training */
 
 
 
@@ -568,39 +621,33 @@ nav a:hover {
 
    /* testpage testpage testpage testpage testpage testpage testpage */
 
-   #left-about {
-    padding-top: 50px;
-    width: 33%;
-    float: left;
-}
+
 
 #right-about {
-    padding-top: 50px;
+    padding-top: 20px;
     width: 25%;
     float: right;
 }
 
 #left-about {
-    padding-top: 50px;
+    padding-top: 20px;
     width: 25%;
-    margin: 0 auto;
+    
+    float: left;
 }
 
 #center-about {
-    display: flex;
+    display: inline-block;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 100px;
     height: auto;
-    width: 250px;
-    
+    width: 300px;
 }
 
 .circle-container {
-    height: 250px;
-    width: 250px;
-    margin: 0;
-    
-    
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
 }
 
 
@@ -689,6 +736,14 @@ nav a:hover {
 
     .pitch1-text {
         font-size: 18px;
+    }
+
+    #center-about {
+        display: inline-block;
+        justify-content: center;
+        padding-top: 20px;
+        height: auto;
+        width: 300px;
     }
 
     

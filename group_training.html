@@ -32,24 +32,24 @@
         </label>
     </header>
     <!-- Introduction to group training   -->
-    <div>
-        <h1>Group training in the heart of Madrid introduction</h1>
+    <div class="group-intro">
+        <h2>Group training in the heart of Madrid </h2><br>
             <p>
                 Achieve your fitness goals while meeting new people in a fun, exciting atmosphere in the centre of Madrid. Group training is offered mornings and evenings, 5 days a week 
                 focussing on different training methods to allow you to still achieve your desired results, in a bilingual environmment in some of the most beautiful outdoor spaces the city has to offer. 
             </p>
     </div>
     <!-- Group training images  -->
-    <div>
-        <!-- <img src="assets/images/battle_ropes.jpg" alt="battle ropes">
-        <img src="assets/images/ladders.jpg" alt="ladders">
-        <img src="assets/images/medicine_ball.jpg" alt="medicine ball">
-        <img src="assets/images/outdoor_fitness_class.jpg" alt="outdoor fitness class"> -->
+    <div class= "group-images">
+        <img src="assets/images/1.png" alt="battle ropes">
+        <img src="assets/images/2.png" alt="ladders">
+        <img src="assets/images/3.png" alt="medicine ball">
+        <img src="assets/images/4.png" alt="outdoor fitness class">
     </div>
     <!-- Class times and locations table -->
-    <div>
-        <h3>Class times</h3>
-        <table>
+    <div class="table-container">
+        <h3>Class times</h3><br>
+        <table class="class-table">
             <tr>
               <th>Day</th>
               <th>Class</th>
@@ -83,9 +83,9 @@
           </table>
     </div>
     <!-- Sign up form -->
-    <div> 
+    <div class="form-container"> 
         <form method="post" action="https://formdump.codeinstitute.net/">
-            <h2>Sign up for group classes</h2>
+            <h2>Sign up for group classes</h2><br>
            
             <label for="fname">Full Name</label>
             <input id="fname" type="text" name="first_name" required>
@@ -95,6 +95,7 @@
             <input id="email" type="email" name="email_address" required>
             <label for="interest">I'm interested in...</label>
             <select name="I'm interested in" id="interest">
+                <option value="" disabled selected hidden>Please Choose...</option>
                 <option value="hiit">HIIT</option>
                 <option value="trx">TRX</option>
                 <option value="tabata">Tabata</option>
