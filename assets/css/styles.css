@@ -329,10 +329,10 @@ nav a:hover {
 #credentials {
     height: auto;
     width: auto;
-    padding: 20px 20px;
+    padding-top: 20px;
     text-align: left;
     border: 1px solid white;
-    margin: 20px 20px;
+    
      border-radius: 5px;
      background: #white;
 }
@@ -349,11 +349,12 @@ nav a:hover {
 
 #message {
     height: auto;
+    display: inline-block;
+    text-align: left;
    width: auto;
-   padding: 20px 20px;
+   padding-top: 20px;
    text-align: left;
    border: 1px solid #dddddd;
-   margin: 20px 20px;
     border-radius: 5px;
     background: #dddddd;
 }
@@ -366,10 +367,10 @@ nav a:hover {
 #hobbies {
     height: auto;
     width: auto;
-    padding: 20px 20px;
+    padding-top: 20px;
     text-align: left;
     border: 1px solid white;
-    margin: 20px 20px;
+    
      border-radius: 5px;
      background: #white;
 }
@@ -384,7 +385,7 @@ nav a:hover {
 }
 /* testpage testpage testpage testpage testpage testpage testpage */
 #about-me {
-    height: 2400px;
+    height: 2850px;
     padding: 67px 20px 20px 20px;
     width: 100%;
     text-align: center;
@@ -444,6 +445,11 @@ nav a:hover {
 
 .right-about-info p {
     text-align: left;
+}
+
+.credentials-hobbies {
+    padding-top: 20px;
+
 }
 
 
@@ -561,6 +567,13 @@ nav a:hover {
         max-width: 180px;
         overflow: hidden;
     }
+
+    #about-me {
+        height: 2100px;
+        padding: 67px 20px 20px 20px;
+        width: 100%;
+        text-align: center;
+    }
 }
 
 /* small tablet styles*/
@@ -621,6 +634,12 @@ nav a:hover {
 
    /* testpage testpage testpage testpage testpage testpage testpage */
 
+   #about-me {
+    height: 1900px;
+    padding: 67px 20px 20px 20px;
+    width: 100%;
+    text-align: center;
+}
 
 
 #right-about {
@@ -632,7 +651,6 @@ nav a:hover {
 #left-about {
     padding-top: 20px;
     width: 25%;
-    
     float: left;
 }
 
@@ -648,6 +666,21 @@ nav a:hover {
     height: 300px;
     width: 300px;
     border-radius: 50%;
+}
+
+.credentials-hobbies {
+    padding-top: 120px;
+
+}
+
+#credentials {
+    float: left;
+    width: 50%;
+}
+
+#hobbies {
+    float: right;
+    width: 50%;
 }
 
 
@@ -685,7 +718,12 @@ nav a:hover {
         background: #dddddd;
     }
 
-  
+    #about-me {
+        height: 1550px;
+        padding: 67px 20px 20px 20px;
+        width: 100%;
+        text-align: center;
+    }
 
 }
 
@@ -707,8 +745,32 @@ nav a:hover {
     .button-index {
         display: grid;
         padding: 20px 38%;
-        text-align: center;
-        
+        text-align: center; 
+    }
+
+
+
+    #about-me {
+        height: 1400px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #right-about {
+        padding-top: 20px;
+        width: 30%;
+        float: right;
+    }
+    
+    #left-about {
+        padding-top: 20px;
+        width: 30%;
+        float: left;
+    }
+
+    .credentials-hobbies {
+        padding-top: 70px;
+    
     }
 }
    
@@ -738,6 +800,12 @@ nav a:hover {
         font-size: 18px;
     }
 
+    #about-me {
+        height: 1200px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
     #center-about {
         display: inline-block;
         justify-content: center;
