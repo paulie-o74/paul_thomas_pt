@@ -352,14 +352,14 @@ nav a:hover {
     display: inline-block;
     text-align: left;
    width: auto;
-   padding-top: 20px;
+   padding: 20px;
    text-align: left;
    border: 1px solid #dddddd;
     border-radius: 5px;
     background: #dddddd;
 }
 
-#message h3 {
+#message h2 {
     text-align: center;
     text-transform: uppercase;
 }
@@ -385,7 +385,7 @@ nav a:hover {
 }
 /* testpage testpage testpage testpage testpage testpage testpage */
 #about-me {
-    height: 2850px;
+    height: 3650px;
     padding: 67px 20px 20px 20px;
     width: 100%;
     text-align: center;
@@ -429,7 +429,7 @@ nav a:hover {
 }
 .left-about-info p {
     text-align: left;
-    font-style: italic;
+    
     
 }
 
@@ -449,7 +449,18 @@ nav a:hover {
 
 .credentials-hobbies {
     padding-top: 20px;
+}
 
+.hr1 {
+    border: 10px solid #2f47ff;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.hr2 {
+    border: 10px solid #2f47ff ;
+    border-radius: 10px;
+    opacity: 1;
 }
 
 
@@ -551,6 +562,9 @@ nav a:hover {
         max-width: 130px;
         overflow: hidden;
     }
+    #about-me {
+        height: 3300px;
+    }
 }
 
 @media  and (min-width:540px) {
@@ -569,7 +583,7 @@ nav a:hover {
     }
 
     #about-me {
-        height: 2100px;
+        height: 3100px;
         padding: 67px 20px 20px 20px;
         width: 100%;
         text-align: center;
@@ -635,7 +649,7 @@ nav a:hover {
    /* testpage testpage testpage testpage testpage testpage testpage */
 
    #about-me {
-    height: 1900px;
+    height: 2800px;
     padding: 67px 20px 20px 20px;
     width: 100%;
     text-align: center;
@@ -669,7 +683,7 @@ nav a:hover {
 }
 
 .credentials-hobbies {
-    padding-top: 120px;
+    padding-top: 20px;
 
 }
 
@@ -681,6 +695,15 @@ nav a:hover {
 #hobbies {
     float: right;
     width: 50%;
+}
+
+.hr2 {
+    display: none;
+    clear: both;
+}
+
+.hr1 {
+    clear: both;
 }
 
 
@@ -719,7 +742,7 @@ nav a:hover {
     }
 
     #about-me {
-        height: 1550px;
+        height: 2200px;
         padding: 67px 20px 20px 20px;
         width: 100%;
         text-align: center;
@@ -751,7 +774,7 @@ nav a:hover {
 
 
     #about-me {
-        height: 1400px;
+        height: 1900px;
         padding-left: 30px;
         padding-right: 30px;
     }
@@ -768,10 +791,7 @@ nav a:hover {
         float: left;
     }
 
-    .credentials-hobbies {
-        padding-top: 70px;
     
-    }
 }
    
 /* desktop styles*/
@@ -801,7 +821,7 @@ nav a:hover {
     }
 
     #about-me {
-        height: 1200px;
+        height: 1730px;
         padding-left: 30px;
         padding-right: 30px;
     }
