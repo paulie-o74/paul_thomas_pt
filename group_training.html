@@ -50,11 +50,14 @@
     <div class="table-container">
         <h3>Class times</h3><br>
         <table class="class-table">
+            <thead>
             <tr>
               <th>Day</th>
               <th>Class</th>
               <th>Times</th>
             </tr>
+            </thead>
+            <tbody>
             <tr>
               <td>Monday</td>
               <td>HIIT</td>
@@ -80,6 +83,7 @@
                 <td>Flow</td>
                 <td>10:00 & 19:00</td>
               </tr>
+            </tbody>
           </table>
     </div>
     <!-- Sign up form -->
@@ -87,13 +91,16 @@
         <form method="post" action="https://formdump.codeinstitute.net/">
             <h2>Sign up for group classes</h2><br>
            
-            <label for="fname">Full Name</label>
-            <input id="fname" type="text" name="first_name" required>
-            <label for="phonenumber">Phone number</label>
-            <input id="phonenumber" type="number" name="phone_number" required>
-            <label for="email">Email Address</label>
-            <input id="email" type="email" name="email_address" required>
-            <label for="interest">I'm interested in...</label>
+            <label for="fname"></label>
+            <input id="fname" type="text" name="first_name" placeholder="FULL NAME" required>
+            <br>
+            <label for="phonenumber"></label>
+            <input id="phonenumber" type="number" name="phone_number" placeholder="PHONE NUMBER" required>
+            <br>
+            <label for="email"></label>
+            <input id="email" type="email" name="email_address" placeholder="EMAIL" required>
+            <br>
+            <label for="interest"></label>
             <select name="I'm interested in" id="interest">
                 <option value="" disabled selected hidden>Please Choose...</option>
                 <option value="hiit">HIIT</option>
@@ -102,6 +109,7 @@
                 <option value="resistance">Resistance</option>
                 <option value="flow">Flow</option>
             </select>
+            <br>
             <input type="submit" value="Sign me up!" class="button">   
         </form>
     </div>
