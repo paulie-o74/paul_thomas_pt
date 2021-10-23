@@ -460,8 +460,9 @@ nav a:hover {
     padding-bottom: 20px;
 }
 
-.group-intro {
+.group-intro h2 {
     text-align: center;
+    text-transform: uppercase;
 }
 
 .group-intro p {
@@ -488,6 +489,7 @@ nav a:hover {
 .table-container h3 {
     
     text-align: center;
+    text-transform: uppercase;
 }
 
 .class-table {
@@ -527,33 +529,70 @@ nav a:hover {
 }
 
 .form-container {
-    background-color: #2f47ff;
-    color: white;
-    padding: 20px;
-    margin: 20px;
-    line-height: 1.5em;
+    background-color: #FF7C59;
+    
+    text-transform: uppercase;
+    
 }
 
 .form-container h2 {
     text-align: center;
+    
 }
 
-.form-container form {
+.form-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+.form-container input  {
     width: 80%;
-    
-    margin: 20px auto;
+    margin: 10px;
+    max-width: 500px;
+}
+
+.form-container select  {
+    width: 80%;
+    margin: 10px 5px;
+    max-width: 700px;
+}
+
+#interest {
+    margin: 10px 0;
+    max-width: 510px;
+}
+
+.map-container {
+    margin: 20px;
     text-align: center;
 }
 
-.form-container input .form-container select {
-    width: 100%;
-    margin: 20px 0;
+.map-container h2 {
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    
 }
 
+#map {
+    min-height: 340px;
+    max-height: 500px;
+    max-width: 500px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
 
 /* group training group training group training group training */
 
+/* testpage testpage testpage testpage testpage  */
 
+
+
+
+/* testpage testpage testpage testpage testpage  */
 
 
 /* Footer and social links  */
