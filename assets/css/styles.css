@@ -482,7 +482,7 @@ nav a:hover {
 
 .table-container {
     padding: 20px;
-    text-align: left;
+    text-align: center;
 }
 
 .table-container h3 {
@@ -504,9 +504,10 @@ nav a:hover {
 .class-table thead tr {
     background-color: #2f47ff;
     color: white;
-    text-align: left;
+    text-align: center;
     font-weight: bold;
 }
+
 
 .class-table th
 .class-table td {
@@ -781,6 +782,10 @@ nav a:hover {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         justify-content: center;
+    }
+
+    .class-table {
+        font-size: 1.2em;
     }
 
 }
