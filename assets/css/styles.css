@@ -281,49 +281,9 @@ nav a:hover {
 
 /* about.html styles about.html styles about.html styles */
 
-.intro-image {
-    display: grid;
-    place-items: center;
-    text-align: center;
-    padding: 67px 20px;
-    /* overflow: hidden; */
-    }
 .profiler {
     width: 80%;
     height: auto;
-}
-
-.testimonials {
-    height: auto;
-   width: auto;
-   padding: 0px 20px;
-   text-align: center;
-}
-
-.testimonials p {
-    text-align: left;
-    font-style: italic;
-    padding: 20px;
-}
-
-.testimonials-extra {
-    display: none;
-}
-
-#philosophy {
-    height: auto;
-   width: auto;
-   padding: 20px 20px;
-   text-align: left;
-   border: 1px solid #dddddd;
-   margin: 20px 20px;
-    border-radius: 5px;
-    background: #dddddd;
-}
-
-#philosophy h3 {
-    text-align: center;
-    text-transform: uppercase;
 }
 
 #credentials {
@@ -332,9 +292,8 @@ nav a:hover {
     padding-top: 20px;
     text-align: left;
     border: 1px solid white;
-    
-     border-radius: 5px;
-     background: #white;
+    border-radius: 5px;
+    background: white;
 }
 
 #credentials h3 {
@@ -344,17 +303,16 @@ nav a:hover {
 
 #credentials li {
     list-style-type: disc;
-    
 }
 
 #message {
     height: auto;
     display: inline-block;
     text-align: left;
-   width: auto;
-   padding: 20px;
-   text-align: left;
-   border: 1px solid #dddddd;
+    width: auto;
+    padding: 20px;
+    text-align: left;
+    border: 1px solid #dddddd;
     border-radius: 5px;
     background: #dddddd;
 }
@@ -370,9 +328,8 @@ nav a:hover {
     padding-top: 20px;
     text-align: left;
     border: 1px solid white;
-    
-     border-radius: 5px;
-     background: #white;
+    border-radius: 5px;
+    background: white;
 }
 
 #hobbies h3 {
@@ -383,11 +340,11 @@ nav a:hover {
 #hobbies li {
     list-style-type: disc ;
 }
-/* testpage testpage testpage testpage testpage testpage testpage */
+
 #about-me {
     height: 3650px;
     padding: 67px 20px 20px 20px;
-    width: 100%;
+    width: auto;
     text-align: center;
     
 }
@@ -398,7 +355,7 @@ nav a:hover {
     text-transform: uppercase;
 }
 
-#center-about {
+.center-about {
 
     display: inline-block;
     padding-top: 20px;
@@ -414,6 +371,22 @@ nav a:hover {
     border-radius: 50%;
 }
 
+.circle-container2 {
+    display: inline-block;
+    height: 335px;
+    width: 335px;
+    background: center / contain no-repeat url(../images/message.jpg);
+    border-radius: 50%;
+}
+
+.circle-container3 {
+    display: inline-block;
+    height: 335px;
+    width: 335px;
+    background: center / cover no-repeat url(../images/hobbies.JPG);
+    border-radius: 50%;
+}
+
 
 #left-about {
     padding-top: 50px;
@@ -423,9 +396,7 @@ nav a:hover {
 
 .left-about-info h2 {
     text-align: center;
-    text-transform: uppercase;
-    
-    
+    text-transform: uppercase;   
 }
 .left-about-info p {
     text-align: left;
@@ -463,8 +434,21 @@ nav a:hover {
     opacity: 1;
 }
 
+#hobbies {
+    height: auto;
+    width: auto;
+    padding-top: 20px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: white;
+}
 
-/* testpage testpage testpage testpage testpage testpage testpage */
+#hobbies ul {
+    text-align: left;
+}
+
+
 
 
 /* group training group training group training group training */
@@ -567,7 +551,7 @@ nav a:hover {
     }
 }
 
-@media  and (min-width:540px) {
+@media screen and (min-width:540px) {
     .pitch-1-images {
         max-height: 160px;
         max-width: 160px;
@@ -635,9 +619,6 @@ nav a:hover {
     }
     nav a:hover::before {
         transform: scale(1, 1);
-        .content {
-        padding-top: 0px;}
-        
     } 
 
     .pitch-1-images {
@@ -646,7 +627,7 @@ nav a:hover {
         overflow: hidden;
     }
 
-   /* testpage testpage testpage testpage testpage testpage testpage */
+    /* about page */
 
    #about-me {
     height: 2800px;
@@ -668,7 +649,7 @@ nav a:hover {
     float: left;
 }
 
-#center-about {
+.center-about {
     display: inline-block;
     justify-content: center;
     padding-top: 100px;
@@ -705,10 +686,6 @@ nav a:hover {
 .hr1 {
     clear: both;
 }
-
-
-
-   /* testpage testpage testpage testpage testpage testpage testpage */
     
 }
 
@@ -742,7 +719,7 @@ nav a:hover {
     }
 
     #about-me {
-        height: 2200px;
+        height: 2350px;
         padding: 67px 20px 20px 20px;
         width: 100%;
         text-align: center;
@@ -774,7 +751,7 @@ nav a:hover {
 
 
     #about-me {
-        height: 1900px;
+        height: 2100px;
         padding-left: 30px;
         padding-right: 30px;
     }
@@ -801,7 +778,6 @@ nav a:hover {
     }
     
     .hero-container {
-        /* height: 80vh; */
         display: grid;
         place-items: center;
         padding-top: 67px;
@@ -821,12 +797,12 @@ nav a:hover {
     }
 
     #about-me {
-        height: 1730px;
+        height: 1625px;
         padding-left: 30px;
         padding-right: 30px;
     }
     
-    #center-about {
+    .center-about {
         display: inline-block;
         justify-content: center;
         padding-top: 20px;
