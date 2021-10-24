@@ -192,7 +192,7 @@ nav a:hover {
     
 }
 
-.pitch-1-links {
+#pitch-1-links {
     display: grid;
     padding: 20px 30%;
     text-align: center;
@@ -225,7 +225,6 @@ nav a:hover {
 }
 
 .how {
-    /* display: grid; */
     padding: 2% 0px;
     text-align: left;
 }
@@ -530,9 +529,7 @@ nav a:hover {
 
 .form-container {
     background-color: #FF7C59;
-    
     text-transform: uppercase;
-    
 }
 
 .form-container h2 {
@@ -555,12 +552,12 @@ nav a:hover {
 
 .form-container select  {
     width: 80%;
-    margin: 10px 5px;
-    max-width: 700px;
+    margin: 10px;
+    max-width: 510px;
 }
 
 #interest {
-    margin: 10px 0;
+    margin: 10px;
     max-width: 510px;
 }
 
@@ -586,6 +583,82 @@ nav a:hover {
 }
 
 /* group training group training group training group training */
+
+/* private training private training  private training  private training  */
+
+.training-container {
+    padding-top: 20px;
+    margin: 20px;
+}
+
+.training-container h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.training {
+    height: auto;
+    width: auto;
+    padding-top: 20px;
+    text-align: left;
+    align-content: center;
+    border: 1px solid #dddddd;
+    padding: 5%;
+    margin: 20px 0px;
+    border-radius: 5px;
+    background: #dddddd;
+}
+
+.training2 {
+    height: auto;
+    width: auto;
+    padding-top: 20px;
+    text-align: left;
+    align-content: center;
+    border: 1px solid black;
+    padding: 5%;
+    margin: 20px 0px;
+    border-radius: 5px;
+    background: white;
+}
+
+
+.training h4 {
+    text-align: left;
+    text-transform: uppercase;
+    padding: 20px 0px;
+}
+
+.training2 h4 {
+    text-align: left;
+    text-transform: uppercase;
+    padding: 20px 0px; 
+}
+
+.training li {
+    list-style-type: disc;
+    margin-left: 20px; 
+}
+
+.training2 li {
+    list-style-type: disc;
+    margin-left: 20px; 
+}
+
+.training ul {
+    padding: 20px;
+}
+
+.training2 ul {
+    padding: 20px;
+}
+
+
+
+/* private training private training  private training  private training  */
+
+
 
 /* testpage testpage testpage testpage testpage  */
 
@@ -837,7 +910,7 @@ nav a:hover {
         overflow: hidden;
     }
 
-    .pitch-1-links {
+    #pitch-1-links {
         display: grid;
         padding: 20px 38%;
         text-align: center;
