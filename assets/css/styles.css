@@ -285,8 +285,8 @@ nav a:hover {
 /* about.html styles about.html styles about.html styles */
 
 .profiler {
-    width: 80%;
-    height: auto;
+    width: 335px;
+    height: 335px;
 }
 
 #credentials {
@@ -330,29 +330,7 @@ nav a:hover {
     text-transform: uppercase;
 }
 
-#hobbies {
-    height: auto;
-    width: auto;
-    padding-top: 20px;
-    text-align: left;
-    border: 1px solid white;
-    border-radius: 5px;
-    background: white;
-}
 
-#hobbies h3 {
-    text-align: center;
-    text-transform: uppercase;
-}
-
-#hobbies li {
-    list-style-type: disc;
-    margin-left: 20px;
-}
-
-#hobbies ul {
-    padding: 20px;
-}
 
 #about-me {
     height: 3850px;
@@ -382,6 +360,14 @@ nav a:hover {
 }
 
 .circle-container3 {
+    display: inline-block;
+    height: 335px;
+    width: 335px;
+    background: center / cover no-repeat url(../images/hobbies.JPG);
+    border-radius: 50%;
+}
+
+.circle-container4 {
     display: inline-block;
     height: 335px;
     width: 335px;
@@ -788,8 +774,8 @@ nav a:hover {
 
 
 .circle-container {
-    height: 300px;
-    width: 300px;
+    height: 335px;
+    width: 335px;
     border-radius: 50%;
 }
 
@@ -806,6 +792,10 @@ nav a:hover {
 #hobbies {
     float: right;
     width: 50%;
+}
+
+.center-about {
+    /* float: left; */
 }
 
 .hr2 {
@@ -928,7 +918,7 @@ nav a:hover {
     }
 
     #about-me {
-        height: 1625px;
+        height: 2000px;
         
     }
     
