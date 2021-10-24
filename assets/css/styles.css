@@ -37,6 +37,10 @@ h4 {
 p {
     font-size: 1em;
 }
+
+textarea {
+    font-family: source-sans-pro, sans-serif;;
+}
 /* index.html styles index.html styles index.html styles */
 /* Button and input styling */
 .button {
@@ -288,7 +292,7 @@ nav a:hover {
 #credentials {
     height: auto;
     width: auto;
-    padding-top: 20px;
+    padding: 20px 0;
     text-align: left;
     border: 1px solid white;
     border-radius: 5px;
@@ -359,20 +363,7 @@ nav a:hover {
     padding: 67px 20px 20px 20px;
     
 }
-#name {
-    padding: 20px 0;
-    margin: 0;
-    text-align: center;
-    text-transform: uppercase;
-}
 
-.center-about {
-
-    display: inline-block;
-    padding-top: 20px;
-    height: 335px;
-    width: 335px;
-}
 
 .circle-container {
     display: inline-block;
@@ -399,48 +390,18 @@ nav a:hover {
 }
 
 
-#left-about {
-    padding-top: 50px;
-    
-}
-
-
-.left-about-info h2 {
-    text-align: center;
-    text-transform: uppercase;   
-}
-.left-about-info p {
-    text-align: left;
-    
-    
-}
-
-#right-about {
-    padding-top: 20px;
-    
-}
-
-.right-about-info h2 {
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.right-about-info p {
-    text-align: left;
-}
-
 .credentials-hobbies {
     padding-top: 20px;
 }
 
 .hr1 {
-    border: 10px solid #2f47ff;
+    border: 10px solid #FF218B;
     border-radius: 10px;
     opacity: 1;
 }
 
 .hr2 {
-    border: 10px solid #2f47ff ;
+    border: 10px solid #FF218B ;
     border-radius: 10px;
     opacity: 1;
 }
@@ -568,6 +529,12 @@ nav a:hover {
     max-width: 510px;
 }
 
+.form-container textarea {
+    width: 80%;
+    margin: 10px;
+    max-width: 500px;
+}
+
 #interest {
     margin: 10px;
     max-width: 510px;
@@ -669,6 +636,14 @@ nav a:hover {
 
 /* private training private training  private training  private training  */
 
+/* contact page contact page contact page contact page contact page */
+
+.contact-section {
+    padding: 67px 20px 20px 20px;
+}
+
+
+/* contact page contact page contact page contact page contact page */ 
 
 
 /* testpage testpage testpage testpage testpage  */
@@ -812,26 +787,6 @@ nav a:hover {
 }
 
 
-#right-about {
-    padding-top: 20px;
-    width: 25%;
-    float: right;
-}
-
-#left-about {
-    padding-top: 20px;
-    width: 25%;
-    float: left;
-}
-
-.center-about {
-    display: inline-block;
-    justify-content: center;
-    padding-top: 100px;
-    height: auto;
-    width: 300px;
-}
-
 .circle-container {
     height: 300px;
     width: 300px;
@@ -941,17 +896,8 @@ nav a:hover {
         
     }
 
-    #right-about {
-        padding-top: 20px;
-        width: 30%;
-        float: right;
-    }
     
-    #left-about {
-        padding-top: 20px;
-        width: 30%;
-        float: left;
-    }
+
 
     
 }
@@ -986,13 +932,7 @@ nav a:hover {
         
     }
     
-    .center-about {
-        display: inline-block;
-        justify-content: center;
-        padding-top: 20px;
-        height: auto;
-        width: 300px;
-    }
+   
 
     
 }
