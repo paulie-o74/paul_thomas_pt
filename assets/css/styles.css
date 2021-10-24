@@ -302,6 +302,11 @@ nav a:hover {
 
 #credentials li {
     list-style-type: disc;
+    margin-left: 20px;
+}
+
+#credentials ul {
+    padding: 20px;
 }
 
 #message {
@@ -337,14 +342,21 @@ nav a:hover {
 }
 
 #hobbies li {
-    list-style-type: disc ;
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#hobbies ul {
+    padding: 20px;
 }
 
 #about-me {
-    height: 3650px;
-    padding: 67px 20px 20px 20px;
+    height: 3850px;
     width: auto;
     text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 67px 20px 20px 20px;
     
 }
 #name {
@@ -587,8 +599,9 @@ nav a:hover {
 /* private training private training  private training  private training  */
 
 .training-container {
-    padding-top: 20px;
-    margin: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
 }
 
 .training-container h2 {
@@ -600,12 +613,11 @@ nav a:hover {
 .training {
     height: auto;
     width: auto;
-    padding-top: 20px;
     text-align: left;
+    margin: 20px 0;
     align-content: center;
     border: 1px solid #dddddd;
-    padding: 5%;
-    margin: 20px 0px;
+    padding: 20px;
     border-radius: 5px;
     background: #dddddd;
 }
@@ -613,12 +625,11 @@ nav a:hover {
 .training2 {
     height: auto;
     width: auto;
-    padding-top: 20px;
     text-align: left;
+    margin: 20px 0;
     align-content: center;
     border: 1px solid black;
-    padding: 5%;
-    margin: 20px 0px;
+    padding: 20px;
     border-radius: 5px;
     background: white;
 }
@@ -732,7 +743,7 @@ nav a:hover {
 
     #about-me {
         height: 3100px;
-        padding: 67px 20px 20px 20px;
+        padding-top: 67px;
         width: 100%;
         text-align: center;
     }
@@ -795,7 +806,7 @@ nav a:hover {
 
    #about-me {
     height: 2800px;
-    padding: 67px 20px 20px 20px;
+    padding-top: 67px;
     width: 100%;
     text-align: center;
 }
@@ -884,7 +895,7 @@ nav a:hover {
 
     #about-me {
         height: 2350px;
-        padding: 67px 20px 20px 20px;
+        padding-top: 67px;
         width: 100%;
         text-align: center;
     }
@@ -927,8 +938,7 @@ nav a:hover {
 
     #about-me {
         height: 2100px;
-        padding-left: 30px;
-        padding-right: 30px;
+        
     }
 
     #right-about {
@@ -973,8 +983,7 @@ nav a:hover {
 
     #about-me {
         height: 1625px;
-        padding-left: 30px;
-        padding-right: 30px;
+        
     }
     
     .center-about {
