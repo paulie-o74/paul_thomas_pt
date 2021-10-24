@@ -187,8 +187,10 @@ nav a:hover {
 .pitch1 {
    height: auto;
    width: auto;
+   max-width: 950px;
    padding: 0px 20px;
    text-align: left;
+   margin: 0 auto;
 }
 
 .pitch1-text { 
@@ -224,6 +226,8 @@ nav a:hover {
 
 .how-it-works {
     height: auto;
+    max-width: 950px;
+    margin: 0 auto;
     padding: 20px 20px 5px;
     
 }
@@ -333,13 +337,13 @@ nav a:hover {
 
 
 #about-me {
-    height: 3850px;
+    height: 3950px;
     width: auto;
     text-align: center;
     box-sizing: border-box;
-    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
     padding: 67px 20px 20px 20px;
-    
 }
 
 
@@ -406,42 +410,14 @@ nav a:hover {
     text-align: left;
 }
 
-
-
-
 /* group training group training group training group training */
 
-.group-intro {
-    padding-top: 67px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-}
-
-.group-intro h2 {
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.group-intro p {
-    text-align: left;
-}
-
-.group-images {
-    display: grid;
-    grid-template-rows: auto;
-    justify-content: center;
-    
-}
-
-.group-images img {
-    padding-top: 20px;
-    justify-self: center;
-}
 
 .table-container {
     padding: 20px;
     text-align: center;
+    max-width: 950px;
+    margin: 0 auto;
 }
 
 .table-container h3 {
@@ -489,6 +465,10 @@ nav a:hover {
 .form-container {
     background-color: #FF7C59;
     text-transform: uppercase;
+    max-width: 950px;
+    margin: 0 auto;
+    min-width: 335px;
+    
 }
 
 .form-container h2 {
@@ -500,7 +480,8 @@ nav a:hover {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
-    margin: 20px;
+    
+    
 }
 
 .form-container input  {
@@ -541,7 +522,7 @@ nav a:hover {
 #map {
     min-height: 340px;
     max-height: 500px;
-    max-width: 500px;
+    max-width: 950px;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
@@ -553,8 +534,11 @@ nav a:hover {
 
 .training-container {
     box-sizing: border-box;
-    width: 100%;
-    padding: 20px;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 20px 20px 5px;
+    
+    
 }
 
 .training-container h2 {
@@ -579,6 +563,18 @@ nav a:hover {
     height: auto;
     width: auto;
     text-align: left;
+    margin: 20px 0;
+    align-content: center;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    background: white;
+}
+
+.training3 {
+    height: auto;
+    width: auto;
+    text-align: center;
     margin: 20px 0;
     align-content: center;
     border: 1px solid black;
@@ -618,26 +614,21 @@ nav a:hover {
     padding: 20px;
 }
 
-
-
 /* private training private training  private training  private training  */
+
 
 /* contact page contact page contact page contact page contact page */
 
 .contact-section {
-    padding: 67px 20px 20px 20px;
+    padding: 0px 20px;
 }
 
+.questions {
+    padding-top: 67px;
+    text-align: center;
+}
 
 /* contact page contact page contact page contact page contact page */ 
-
-
-/* testpage testpage testpage testpage testpage  */
-
-
-
-
-/* testpage testpage testpage testpage testpage  */
 
 
 /* Footer and social links  */
@@ -663,10 +654,10 @@ nav a:hover {
 .footer i {
     font-size: 3rem;
     padding: 5%;
-    color: #363636;
+    color: #1D1A27;
 }
 
-
+/* Footer and social links  */
 
 
 
@@ -845,13 +836,6 @@ nav a:hover {
         text-align: center;
     }
 
-    .group-images {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        justify-content: center;
-    }
-
     .class-table {
         font-size: 1.2em;
     }
@@ -901,14 +885,14 @@ nav a:hover {
     .hero-container {
         display: grid;
         place-items: center;
-        padding-top: 67px;
+        padding: 67px 0px;
         overflow: hidden;
     }
 
     .pitch-1-images {
     
-        max-height: 330px;
-        max-width: 330px;
+        max-height: 310px;
+        max-width: 310px;
         overflow: hidden;
         
     }
