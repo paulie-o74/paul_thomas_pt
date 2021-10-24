@@ -2,14 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Source+Sans+Pro&display=swap');
 
 /* variables*/
-:root{
+:root {
     /* main colors go here */
 }
 
 /* Full page styles */
 * {
     margin: 0;
-    list-style-type: none; 
+    list-style-type: none;
     padding: 0;
     text-decoration: none;
 }
@@ -22,31 +22,40 @@ body {
     font-weight: 350;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: Roboto, sans-serif;
 }
+
 h2 {
     font-size: 1.4em;
 }
+
 h3 {
     font-size: 1.25em;
 }
+
 h4 {
     font-size: 1.15em;
 }
+
 p {
     font-size: 1em;
 }
 
 textarea {
-    font-family: source-sans-pro, sans-serif;;
+    font-family: source-sans-pro, sans-serif;
+    ;
 }
+
 /* index.html styles index.html styles index.html styles */
 /* Button and input styling */
 .button {
     background: #2f47ff;
     border: 1px solid #2f47ff;
-    color: white; 
+    color: white;
     padding: 10px 10px;
     border-radius: 5px;
     text-transform: uppercase;
@@ -58,7 +67,9 @@ textarea {
     background: white;
 }
 
-input, textarea, select {
+input,
+textarea,
+select {
     border: 1px solid black;
     padding: 4px 4px;
     border-radius: 5px;
@@ -71,7 +82,7 @@ header {
     background: white;
     text-align: center;
     position: fixed;
-    width: 100%;  
+    width: 100%;
 }
 
 .nav-toggle {
@@ -92,7 +103,7 @@ a {
     align-items: center;
 }
 
-.nav-toggle-label span, 
+.nav-toggle-label span,
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
     display: block;
@@ -137,7 +148,7 @@ nav .site-nav {
 
 nav li {
     margin-bottom: 1em;
-    margin-left: 1em; 
+    margin-left: 1em;
 }
 
 nav a {
@@ -145,18 +156,18 @@ nav a {
     font-size: 0.8rem;
     text-transform: uppercase;
     opacity: 0;
-    transition: opacity 100ms ease-in-out ;
+    transition: opacity 100ms ease-in-out;
 }
 
 nav a:hover {
     color: #363636;
 }
 
-.nav-toggle:checked ~ nav {
+.nav-toggle:checked~nav {
     transform: scale(1, 1);
 }
 
-.nav-toggle:checked ~ nav a {
+.nav-toggle:checked~nav a {
     opacity: 1;
     transition: opacity 250ms ease-in-out 250ms;
 }
@@ -177,6 +188,7 @@ nav a:hover {
     padding-top: 67px;
     overflow: hidden;
 }
+
 .hero-image {
     width: 100%;
     height: auto;
@@ -185,17 +197,16 @@ nav a:hover {
 /* First sign up attempt  */
 
 .pitch1 {
-   height: auto;
-   width: auto;
-   max-width: 950px;
-   padding: 0px 20px;
-   text-align: left;
-   margin: 0 auto;
+    height: auto;
+    width: auto;
+    max-width: 950px;
+    padding: 0px 20px;
+    text-align: left;
+    margin: 0 auto;
 }
 
-.pitch1-text { 
+.pitch1-text {
     padding: 20px 0px;
-    
 }
 
 #pitch-1-links {
@@ -216,7 +227,6 @@ nav a:hover {
 }
 
 .pitch-1-images {
-    
     max-height: 110px;
     max-width: 110px;
     overflow: hidden;
@@ -229,7 +239,6 @@ nav a:hover {
     max-width: 950px;
     margin: 0 auto;
     padding: 20px 20px 5px;
-    
 }
 
 .how {
@@ -242,7 +251,6 @@ nav a:hover {
 }
 
 #step1 {
-    
     align-content: center;
     border: 1px solid #dddddd;
     padding: 5%;
@@ -258,6 +266,7 @@ nav a:hover {
     margin: 20px 0px;
     border-radius: 5px;
 }
+
 #step3 {
     align-content: center;
     border: 1px solid #dddddd;
@@ -266,6 +275,7 @@ nav a:hover {
     border-radius: 5px;
     background: #dddddd;
 }
+
 #step4 {
     align-content: center;
     border: 1px solid black;
@@ -283,7 +293,7 @@ nav a:hover {
     display: grid;
     padding: 20px 30%;
     text-align: center;
-    
+
 }
 
 /* about.html styles about.html styles about.html styles */
@@ -293,7 +303,7 @@ nav a:hover {
     height: 335px;
 }
 
-#credentials {
+.credentials {
     height: auto;
     width: auto;
     padding: 20px 0;
@@ -303,17 +313,17 @@ nav a:hover {
     background: white;
 }
 
-#credentials h3 {
+.credentials h3 {
     text-align: center;
     text-transform: uppercase;
 }
 
-#credentials li {
+.credentials li {
     list-style-type: disc;
     margin-left: 20px;
 }
 
-#credentials ul {
+.credentials ul {
     padding: 20px;
 }
 
@@ -334,8 +344,6 @@ nav a:hover {
     text-transform: uppercase;
 }
 
-
-
 #about-me {
     height: 3950px;
     width: auto;
@@ -345,7 +353,6 @@ nav a:hover {
     margin: 0 auto;
     padding: 67px 20px 20px 20px;
 }
-
 
 .circle-container {
     display: inline-block;
@@ -379,7 +386,6 @@ nav a:hover {
     border-radius: 50%;
 }
 
-
 .credentials-hobbies {
     padding-top: 20px;
 }
@@ -391,7 +397,7 @@ nav a:hover {
 }
 
 .hr2 {
-    border: 10px solid #FF218B ;
+    border: 10px solid #FF218B;
     border-radius: 10px;
     opacity: 1;
 }
@@ -412,7 +418,6 @@ nav a:hover {
 
 /* group training group training group training group training */
 
-
 .table-container {
     padding: 20px;
     text-align: center;
@@ -421,7 +426,6 @@ nav a:hover {
 }
 
 .table-container h3 {
-    
     text-align: center;
     text-transform: uppercase;
 }
@@ -445,8 +449,7 @@ nav a:hover {
 }
 
 
-.class-table th
-.class-table td {
+.class-table th .class-table td {
     padding: 12px 15px;
 }
 
@@ -467,29 +470,27 @@ nav a:hover {
     text-transform: uppercase;
     max-width: 950px;
     margin: 20px;
-    
-    
 }
 
 .form-container h2 {
     text-align: center;
-    
+
 }
 
 .form-container {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
-    
+
 }
 
-.form-container input  {
+.form-container input {
     width: 80%;
     margin: 10px;
     max-width: 500px;
 }
 
-.form-container select  {
+.form-container select {
     width: 80%;
     margin: 10px;
     max-width: 510px;
@@ -515,7 +516,6 @@ nav a:hover {
     text-align: center;
     padding: 20px;
     text-transform: uppercase;
-    
 }
 
 #map {
@@ -536,8 +536,6 @@ nav a:hover {
     max-width: 950px;
     margin: 0 auto;
     padding: 20px 20px 5px;
-    
-    
 }
 
 .training-container h2 {
@@ -592,17 +590,17 @@ nav a:hover {
 .training2 h4 {
     text-align: left;
     text-transform: uppercase;
-    padding: 20px 0px; 
+    padding: 20px 0px;
 }
 
 .training li {
     list-style-type: disc;
-    margin-left: 20px; 
+    margin-left: 20px;
 }
 
 .training2 li {
     list-style-type: disc;
-    margin-left: 20px; 
+    margin-left: 20px;
 }
 
 .training ul {
@@ -627,7 +625,7 @@ nav a:hover {
     text-align: center;
 }
 
-/* contact page contact page contact page contact page contact page */ 
+/* contact page contact page contact page contact page contact page */
 
 
 /* Footer and social links  */
@@ -646,7 +644,7 @@ nav a:hover {
     padding: 0;
 }
 
-.footer ul > li {
+.footer ul>li {
     display: inline;
 }
 
@@ -658,12 +656,6 @@ nav a:hover {
 
 /* Footer and social links  */
 
-
-
-
-
-
-
 /* Media queries */
 
 @media screen and (min-width: 442px) {
@@ -672,6 +664,7 @@ nav a:hover {
         max-width: 130px;
         overflow: hidden;
     }
+
     #about-me {
         height: 3300px;
     }
@@ -701,17 +694,20 @@ nav a:hover {
 }
 
 /* small tablet styles*/
-@media screen and (min-width: 760px){ 
+@media screen and (min-width: 760px) {
     .nav-toggle-label {
         display: none;
     }
+
     header {
         display: grid;
         grid-template-columns: 1.5fr auto minmax(600px, 7fr) 1fr;
     }
+
     #logo {
         grid-column: 1 / 2;
     }
+
     nav {
         all: unset;
         grid-column: 3 / 4;
@@ -719,18 +715,21 @@ nav a:hover {
         justify-content: flex-end;
         align-items: center;
     }
+
     nav .site-nav {
         display: flex;
-        
     }
+
     nav li {
         margin-left: 2em;
         margin-bottom: 0;
     }
+
     nav a {
         opacity: 1;
         position: relative;
     }
+
     nav a::before {
         content: '';
         display: block;
@@ -743,9 +742,10 @@ nav a:hover {
         transform: scale(0, 1);
         transition: transform ease-in-out 250ms;
     }
+
     nav a:hover::before {
         transform: scale(1, 1);
-    } 
+    }
 
     .pitch-1-images {
         max-height: 240px;
@@ -755,62 +755,59 @@ nav a:hover {
 
     /* about page */
 
-   #about-me {
-    height: 2800px;
-    padding-top: 67px;
-    width: 100%;
-    text-align: center;
-}
+    #about-me {
+        height: 2800px;
+        padding-top: 67px;
+        width: 100%;
+        text-align: center;
+    }
 
 
-.circle-container {
-    height: 335px;
-    width: 335px;
-    border-radius: 50%;
-}
+    .circle-container {
+        height: 335px;
+        width: 335px;
+        border-radius: 50%;
+    }
 
-.credentials-hobbies {
-    padding-top: 20px;
+    .credentials-hobbies {
+        padding-top: 20px;
 
-}
+    }
 
-#credentials {
-    float: left;
-    width: 50%;
-}
+    .credentials {
+        float: left;
+        width: 50%;
+    }
 
-#hobbies {
-    float: right;
-    width: 50%;
-}
+    #hobbies {
+        float: right;
+        width: 50%;
+    }
 
-.center-about {
-    /* float: left; */
-}
+    .hr2 {
+        display: none;
+        clear: both;
+    }
 
-.hr2 {
-    display: none;
-    clear: both;
-}
+    .hr1 {
+        clear: both;
+    }
 
-.hr1 {
-    clear: both;
-}
-    
 }
 
 /* large tablets & laptops*/
 @media screen and (min-width: 768px) {
     .body {
-         font-size: 18px;
-     }
-    
+        font-size: 18px;
+    }
+
     .how {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         gap: 5%;
     }
+
     #step3 {
         align-content: center;
         border: 1px solid black;
@@ -819,6 +816,7 @@ nav a:hover {
         border-radius: 5px;
         background: white;
     }
+
     #step4 {
         align-content: center;
         border: 1px solid #dddddd;
@@ -838,12 +836,9 @@ nav a:hover {
     .class-table {
         font-size: 1.2em;
     }
-
-    
-
 }
 
-@media screen and (min-width: 880px){
+@media screen and (min-width: 880px) {
 
     .pitch-1-images {
         max-height: 270px;
@@ -861,54 +856,43 @@ nav a:hover {
     .button-index {
         display: grid;
         padding: 20px 38%;
-        text-align: center; 
+        text-align: center;
     }
-
-
 
     #about-me {
         height: 2100px;
-        
     }
-  
 }
-   
-@media screen and (min-width: 970px){
+
+@media screen and (min-width: 970px) {
     .form-container {
         margin: 0 auto;
     }
 
-/* desktop styles*/
-@media screen and (min-width: 1025px){
-    .body {
-        font-size: 18px;
-    }
-    
-    .hero-container {
-        display: grid;
-        place-items: center;
-        padding: 67px 0px;
-        overflow: hidden;
-    }
+    /* desktop styles*/
+    @media screen and (min-width: 1025px) {
+        .body {
+            font-size: 18px;
+        }
 
-    .pitch-1-images {
-    
-        max-height: 310px;
-        max-width: 310px;
-        overflow: hidden;
-        
-    }
+        .hero-container {
+            display: grid;
+            place-items: center;
+            padding: 67px 0px;
+            overflow: hidden;
+        }
 
-    .pitch1-text {
-        font-size: 18px;
-    }
+        .pitch-1-images {
+            max-height: 310px;
+            max-width: 310px;
+            overflow: hidden;
+        }
 
-    #about-me {
-        height: 2000px;
-        
-    }
-    
-   
+        .pitch1-text {
+            font-size: 18px;
+        }
 
-    
+        #about-me {
+            height: 2100px;
+        }
 }
