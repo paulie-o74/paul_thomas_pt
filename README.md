@@ -40,57 +40,56 @@
 ## Project Goals
 
 ### User Goals
-- Finding a restaurant that offers a nice atmosphere and good food.
-- See a full menu with clear pricing.
-- Find information about the restaurant.
-- Find the location of the restaurant
+- To find a bilingual personal trainer in Madrid city centre.
+- To find outdoor group training sessions in Madrid city centre.
+- To reference class times, locations and types.
+- Research information on Paul Thomas PT.
+- Sign up and/or request more information on services provided. 
 
 ### Site Owner Goals
-- Increase in the number of customers.
-- Promote the bussines.
-- Provide a way for new and existing customers to contact the buissnes.
-- Provide essential information about the bussines to customers.
+- Increase the number of personal training clients.
+- Increase the number of group training clients.
+- Promote the personal training business and brand.
+- Provide a method for new and existing customers to contact with the buissnes.
+- Provide a fixed point for all sign ups for the business. 
 
 ## User Experience
 
 ### Target Audience
-- People looking for a place to dine at
-- People looking to order take away
-- Groups of people looking for a place to carter a event
-- Small to medium wedding parties
+- Individuals looking to make a healthy change in their lifestyle.
+- Individuals looking to meet new people in Madrid ciy centre in an active, fun environment.
+- Groups of individulas looking for a group fitness class.
+- Individuals looking to push themselves further or improve their fitness.
 
-### User Requrements and Expectations
+### User Requirements and Expectations
 
-- A simple and intuitive navigation system
-- Quickly and easily find relevant information
-- Links and functions that work as expected
-- Good presentation and a visually appealing design regardless of screen size
-- An easy way to contact the bussines
-- Simple content that the user can skim read
+- A simple and intuitive navigation system.
+- Quickly and easily find relevant information.
+- Links that work as expected.
+- Well presented and a visually appealing design regardless of device.
+- An easy way to contact the business.
 - Accessibility
 
 ### User Stories
 
 #### First-time User 
-1. As a first time user, I want to know where the restaurant is lokated
-2. As a first time user, I want to know the price range
-3. As a first time user, I want to know more about the restaurant
-4. As a first time user, I want to get a feel of what to expect at the restaurant
+1. As a first time user, I want to know what services are offered by Paul Thomas PT.
+2. As a first time user, I want to know times, locations and types of classes offered.
+3. As a first time user, I want to know how to get in contact with the trainer and request more information/ have an initial consultation. 
+4. As a first time user, I want to get a feel of what to expect in a group/private fitness class.
 
 #### Returning User
-5. As a returning user, I want to see the Sunday meal offer
-6. As a returnign user, I want to know the opening times
-7. As a returning user, I want to find a phone number to call for reservation
-8. As a returning user, I want to see the menu
-9. As a returning user, I want to leave some comment, suggestion or message to the staff
-10. As a returning user, I want to find the restaurant on social media
-11. As a returning user, I want to know who is preparing the food
-12. As a returning user, I want to get directions to the restaurant
+5. As a returning user, I want to see the times, types and locations of classes.
+6. As a returnign user, I want to get in contact with the trainer.
+7. As a returning user, I want to find a social media link to connect with the business.
+8. As a returning user, I want to find out a little more about Paul Thomas background.
+9. As a returning user, I want to leave some comment, suggestion or message to the staff.
+10. As a returning user, I want to get directions to the classes.
 
 #### Site Owner 
-13. As the site owner, I want users to find news about upcoming events or changes in opening times
-14. As the site owner, I want users to get to know the restaurant 
-15. As the site owner, I want the users to be able to contact us
+13. As the site owner, I want users to interact with my brand, get to know me and the services I offer and sign up for more information.
+14. As the site owner, I want users to get a feel for the types of services offered.
+15. As the site owner, I want the users to be able to see some client testimonies.
 
 ## Design
 
