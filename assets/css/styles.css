@@ -466,7 +466,9 @@ nav a:hover {
 }
 
 .form-container {
-    background-color: #FF7C59;
+    background-color: #dddddd;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
     text-transform: uppercase;
     max-width: 950px;
     margin: 20px;
