@@ -358,7 +358,7 @@ nav a:hover {
     display: inline-block;
     height: 335px;
     width: 335px;
-    background: center / contain no-repeat url(../images/profiler.jpeg);
+    background: center / contain no-repeat url(../images/profiler.webp);
     border-radius: 50%;
 }
 
@@ -366,7 +366,7 @@ nav a:hover {
     display: inline-block;
     height: 335px;
     width: 335px;
-    background: center / contain no-repeat url(../images/message.jpg);
+    background: center / contain no-repeat url(../images/message.webp);
     border-radius: 50%;
 }
 
@@ -374,7 +374,7 @@ nav a:hover {
     display: inline-block;
     height: 335px;
     width: 335px;
-    background: center / cover no-repeat url(../images/hobbies.JPG);
+    background: center / cover no-repeat url(../images/hobbies.webp);
     border-radius: 50%;
 }
 
@@ -382,7 +382,7 @@ nav a:hover {
     display: inline-block;
     height: 335px;
     width: 335px;
-    background: center / cover no-repeat url(../images/credentials.JPG);
+    background: center / cover no-repeat url(../images/credentials.webp);
     border-radius: 50%;
 }
 
