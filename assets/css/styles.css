@@ -628,6 +628,28 @@ nav a:hover {
 
 /* contact page contact page contact page contact page contact page */
 
+/* 404 page styling 404 page styling 404 page styling */
+
+#error-container {
+    box-sizing: border-box;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 67px 20px 5px;
+}
+
+#error-container h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.error {
+    width: 100%;
+    height: auto;
+    border: 1px solid #white;
+    border-radius: 5px;
+}
+
+
 
 /* Footer and social links  */
 
