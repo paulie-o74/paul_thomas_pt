@@ -216,65 +216,34 @@ The page consists of five pages and the main features include training images, l
 
 ### HTML Validation
 The W3C Markup Validation Service was used to validate the HTML of the website. All pages passed with no errors nor warnings to show.
-<details><summary>Home</summary>
-<img src="../assets/images/index-validated.png">
-</details>
-<details><summary>About</summary>
-<img src="/assets/images/">
-</details>
-<details><summary>Group Training</summary>
-<img src="/assets/images/">
-</details>
-<details><summary>Private Training</summary>
-<img src="/assets/images/">
-</details>
-<details><summary>Contact</summary>
-<img src="/assets/images/">
-</details>
+
+![Home](/assets/images/index-validated.png)
+![About](/assets/images/about-validated.png)
+![Group-Training](/assets/images/group-validated.png)
+![Private-Training](/assets/images/private-training.png)
+![Contact](/assets/images/contact-validated.png)
 
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
 When validating the page as a whole, the validator shows some errors linked to Bootstrap v5.0. When validating just my own custom CSS it passes with no errors found and some warnings associated to using root variables.
-<details><summary>styles.css</summary>
-<img src="/assets/images/">
-</details>
+![CSS](/assets/images/css-validation.png)
 
 ### Accessibility
-The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
-<details><summary>Home</summary>
-<img src="/assets/images/">
-</details>
-<details><summary>About</summary>
-<img src="/assets/images/">
-</details>
-<details><summary>Group Training</summary>
-<img src="/assets/images/">
-</details>
-<details><summary>Private Training</summary>
-<img src="/assets/images/">
-</details>
-<details><summary>Contact</summary>
-<img src="/assets/images/">
-</details>
+The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 1 errors. This error is due to a label which must be included for the toggle menu (burger menu) to work functionally only using CSS (no bootstrap).
+![Home](/assets/images/index-acc.png)
+![About](/assets/images/about-acc.png)
+![Group-Training](/assets/images/group-acc.png)
+![Private-Training](/assets/images/private-acc.png)
+![Contact](/assets/images/contact-acc.png)
 
 ### Performance 
-Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. 
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. The best practices score was lower than expected becuase of large images sizes. 
 
-<details><summary>Home</summary>
-<img src="docs/validation/lighthouse-performance-index.jpg">
-</details>
-<details><summary>About</summary>
-<img src="docs/validation/lighthouse-performance-about.jpg">
-</details>
-<details><summary>Menu</summary>
-<img src="docs/validation/lighthouse-performance-menu.jpg">
-</details>
-<details><summary>Gallery</summary>
-<img src="docs/validation/lighthouse-performance-gallery.jpg">
-</details>
-<details><summary>Contact</summary>
-<img src="docs/validation/lighthouse-performance-contact.jpg">
-</details>
+![Home](/assets/images/index-light.png)
+![About](/assets/images/about-light.png)
+![Group-Training](/assets/images/group-light.png)
+![Private-Training](/assets/images/private-light.png)
+![Contact](/assets/images/contact-light.png)
 
 ### Performing tests on various devices 
 The website was tested on the following devices:
@@ -298,139 +267,108 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Map | Navigate to the Contact Us page, locate the Google Map | Locating a map showing the location of the restaurant | Works as expected |
-| Footer - contact information section | On any page scroll down to the footer | Find the address of the restaurant | Works as expected |
+| Home page | Navigate to the type of training you are most interested in | Locating group or private training information | Works as expected |
+| Footer - social media links | On any page scroll down to the footer | Find the links to the social media accounts | Works as expected |
 
-<details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-1v1-12.jpg">
-<img src="docs/user-story-testing/user-story-1v2.jpg">
-</details>
 
 2. As a first time user, I want to know times, locations and types of classes offered.
 
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Menu | Navigate to the Menu page | See prices on menu page | Works as expected |
+| Group / Private training pages | Navigate to the Menu  | See training options and descriptions | Works as expected |
 
-<details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-2.jpg">
-</details>
+
 
 3. As a first time user, I want to know how to get in contact with the trainer and request more information/ have an initial consultation. 
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| About Us | Navigate to the About page and locate the About Us section | Find description of the restaurant | Works as expected |
-| Customer reviews | Navigate to the About page, scroll down to What our guests say section | Read customer reviews | Works as expected | 
+| Contact page | Navigate to the contact page and locate the form | Find and fill out contact form | Works as expected |
+| Footer-social media links  | On any page scroll down to the footer | Contact via social media platform of your choice | Works as expected | 
 
-<details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-3-14.jpg">
-</details>
 
 4. As a first time user, I want to get a feel of what to expect in a group/private fitness class.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Gallery | Navigate to the Gallery page | Find pictures of the restaurant and food served there | Works as expected |
-| Promo video | Navigate to the GAlelry page and scroll to the promo video | Watch promo video | Works as expected |
+| Gallery | Navigate to the home page or either training page | Find pictures of the classes | Works as expected |
 
-<details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-4.jpg">
-</details>
+
 
 5. As a returning user, I want to see the times, types and locations of classes.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Meal-deal | On home page scroll down to the Sunday meal deal section | Find the meal-deal for the upcomming Sunday | Works as expected |
+| Group-training page | Navigate to the group training page and locate the class table | Find the class schedule | Works as expected |
 
-<details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-5.jpg">
-</details>
 
 6. As a returnign user, I want to get in contact with the trainer.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Footer - opening times section | On any page scroll to the footer | See opening times | Works as expected |
+| Contact page | Navigate to the contact page and locate the form | Find and fill out contact form | Works as expected |
+| Footer-social media links  | On any page scroll down to the footer | Contact via social media platform of your choice | Works as expected | 
 
-<details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-6.jpg">
-</details>
 
 7. As a returning user, I want to find a social media link to connect with the business.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Footer - contact information section | On any page scroll to the footer | See phone number | Works as expected |
-| Info Box | Navigate to Contact Us page and locate the How to find us section | See phone number | Works as expected |
+| Footer-social media links  | On any page scroll down to the footer | Contact via social media platform of your choice | Works as expected | 
 
-<details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-7v1-15.jpg">
-<img src="docs/user-story-testing/user-story-7v2-15.jpg">
-</details>
+
 
 8. As a returning user, I want to find out a little more about Paul Thomas background.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Menu | Navigate to the menu page | Read the menu | Works as expected |
+| About page | Navigate to the contact page and locate the section on Paul Thomas | Read the page | Works as expected |
 
-<details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-8.jpg">
-</details>
+
 
 9. As a returning user, I want to leave some comment, suggestion or message to the staff.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Contact Form | Navigate to the Contact Us Page and locate the contact form, fill out and submit contact form | Data submited via contact form | Works as expectd |
+| Footer-social media links  | On any page scroll down to the footer | Contact via social media platform of your choice | Works as expected | 
+| Contact page | Navigate to the contact page and locate the form | Find and fill out contact form | Works as expected |
 
-<details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-9-15.jpg">
-</details>
 
 10. As a returning user, I want to get directions to the classes.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Footer - social media section | On any page scroll to the bottom | Click on social media links | Works as expected | 
+| Map | On group training page, scroll to the bottom to find embedded map showing class locations | Click on map locations | Works as expected | 
 
-<details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-10.jpg">
-</details>
+
 
 11. As the site owner, I want users to interact with my brand, get to know me, the services I offer and sign up for more information.
 
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Meet the Chef | Navigate to the About page and scroll down to Meet the Chef section | Find brief bio of the Chef | Works as expected |
+| Footer-social media links  | On any page scroll down to the footer | Contact via social media platform of your choice | Works as expected | 
+| Contact page | Navigate to the contact page and locate the form | Find and fill out contact form | Works as expected |
+| About page | Navigate to the contact page and locate the section on Paul Thomas | Read the page | Works as expected |
 
-<details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-11.jpg">
-</details>
+
 
 12. As the site owner, I want users to get a feel for the types of services offered.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Map | Navigate to the Contact Us page, locate the map and click on directions link | See directions to the restaurant on Goole Maps | Works as expected |
+| Group / Private training pages | Navigate to the Menu  | See training options and descriptions | Works as expected |
+| Home page | Navigate to the type of training you are most interested in | Locating group or private training information | Works as expected |
 
-<details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-1v1-12.jpg">
-</details>
 
 13. As the site owner, I want users to be able to see some client testimonies.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| News | Scroll down on home page and locate news section | Find latest news | Works as expected |
+| About page | Navigate to the contact page and locate the section on client testimonies at the bottom of the page | Read the section | Works as expected |
 
-<details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-13.jpg">
-</details>
+
 
 
 ## Bugs
@@ -445,21 +383,21 @@ The website was tested on the following browsers:
 
 ## Deployment
 The website was deployed using GitHub Pages by following these steps:
-1. In the GitHub repository navigate to the Settings tab
-2. On the left hand menu select Pages
-3. For the source select Branch: master
-4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is published at https://4n4ru.github.io/CI_MS1_BodelschwingherHof/"
+1. In the GitHub repository navigate to the Settings tab.
+2. Select Pages from the menu on the left hand-side.
+3. For the source select Branch: master.
+4. After the webpage refreshes automaticaly a ribbon on the top says: "Your site is published at "https://rashdogg74.github.io/paul_thomas_pt/"
 
-You can for fork the repository by following these steps:
-1. Go to the GitHub repository
-2. Click on Fork button in upper right hand corner
+You can fork the repository by following these steps:
+1. Go to the GitHub repository.
+2. Click on Fork button in upper right hand corner.
 
 You can clone the repository by following these steps:
-1. Go to the GitHub repository 
-2. Locate the Code button above the list of files and click it 
-3. Select if you prefere to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
-4. Open Git Bash
-5. Change the current working directory to the one where you want the cloned directory
+1. Go to the GitHub repository.
+2. Locate the Code button above the list of files and click it.
+3. Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard.
+4. Open Git Bash.
+5. Change the current working directory to the one where you want the cloned directory.
 6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
 7.Press Enter to create your local clone.
 
