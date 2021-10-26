@@ -575,10 +575,10 @@ nav a:hover {
     text-align: center;
     margin: 20px 0;
     align-content: center;
-    border: 1px solid black;
+    border: 1px solid #dddddd;
     padding: 20px;
     border-radius: 5px;
-    background: white;
+    background: #dddddd;
 }
 
 
