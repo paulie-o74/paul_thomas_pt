@@ -644,8 +644,8 @@ nav a:hover {
 
 .error {
     width: 100%;
-    max-height: auto;
-    border: 1px solid #white;
+    height: auto;
+    border: 1px solid white;
     border-radius: 5px;
 }
 
@@ -918,4 +918,4 @@ nav a:hover {
         #about-me {
             height: 2100px;
         }
-}
+    }
