@@ -1,7 +1,7 @@
 # Paul Thomas PT
 (Developer: Paul Thomas O´Riordan)
 
-![Mockup image](docs/am-i-responsive.jpg)
+![Mockup image](assets/images/am-i-responsive.png)
 
 [Live webpage](https://rashdogg74.github.io/paul_thomas_pt/)
 
@@ -50,7 +50,7 @@
 - Increase the number of personal training clients.
 - Increase the number of group training clients.
 - Promote the personal training business and brand.
-- Provide a method for new and existing customers to contact with the buissnes.
+- Provide a method for new and existing customers to connect with the buissnes.
 - Provide a fixed point for all sign ups for the business. 
 
 ## User Experience
@@ -58,7 +58,7 @@
 ### Target Audience
 - Individuals looking to make a healthy change in their lifestyle.
 - Individuals looking to meet new people in Madrid ciy centre in an active, fun environment.
-- Groups of individulas looking for a group fitness class.
+- Groups of individuals looking for a group fitness class.
 - Individuals looking to push themselves further or improve their fitness.
 
 ### User Requirements and Expectations
@@ -68,7 +68,7 @@
 - Links that work as expected.
 - Well presented and a visually appealing design regardless of device.
 - An easy way to contact the business.
-- Accessibility
+- Accessibility.
 
 ### User Stories
 
@@ -87,36 +87,35 @@
 10. As a returning user, I want to get directions to the classes.
 
 #### Site Owner 
-13. As the site owner, I want users to interact with my brand, get to know me and the services I offer and sign up for more information.
-14. As the site owner, I want users to get a feel for the types of services offered.
-15. As the site owner, I want the users to be able to see some client testimonies.
+11. As the site owner, I want users to interact with my brand, get to know me, the services I offer and sign up for more information.
+12. As the site owner, I want users to get a feel for the types of services offered.
+13. As the site owner, I want users to be able to see some client testimonies.
 
 ## Design
 
 ### Design Choices
-The webpage was designed with the feeling a customer might get while dining at the restaurant. It is calm, warm and inviting. 
-Some of the imagery on the page has a round shape with a border to resemble food served on a plate.
+The webpage was designed with my own personal style and training style in mind. Clean, to the point and focussed on what I want to achieve. Focus was put on images of people enjoying themselves and working hard, both in private and group classes. 
 
 ### Colour
-For the colour sheme warm brown tones were chosen to match the images on the page and also the colour theme of the actual restaurant. To narrow down the colours I used Adobe Color. After deciding on the colour I tested them on WebAIM to make sure the contrast between them was right.
+For the colour scheme cool and vibrant colors were chosen to reflect the calmness and simplicity of my own character and the services I offer, as well as being energetic and inspiring movement and vibrance. 
 <br>
 
-![Colour scheme](docs/features/color-palette.png)
+![Colour scheme](assets/images/color-palette.png)
 
 
 ### Fonts
-Pinyon script with cursive as fallback was used for the logo to match the sign outside the restaurant. 
+Roboto was used for the logo and the headings throughout the site. The logic behind this was to maintain style and simplicity throughout the site and call attention to key information.
 <br>
-Montserrat was used for the body and Roboto for headings. Both fonts are considered dyslexia friendly.
+Source-sans-pro was chosen for the body text of the website, this font combines very well with Roboto and again maintains the clean simplistic approach site-wide. 
 
 ### Structure
 The page is structured in a well know, recognizable, user friendly, and easy to learn way. Upon arriving to the website the user sees a familiar type of navigation bar with the restaurant logo on the left side and the navigation links to the right. 
 The website consists of five separate pages: 
-- A homepage with a sections for News and Sunday Meal Offers
-- An about page with the About Us and Meet the Chef
-- A menu page
-- A image gallery with images and video showcasing the general feel of the restaurant
-- A contact page with a contact form, a map and information about the bussines section
+- A homepage with a brief introduction to the services offered, a call to action as well as a short description of "how it works".
+- An about page with information about me, my credentials, background, hobbies and interests to give the user an opportunity to get to know me. 
+- A group training page, with a call to action, group class times and locations, and some information on the types of training offered. 
+- A private training page, with a call to action, 2 options and a breakdown of the different servcies offered. 
+- A contact page with a text input area to allow customers to get in contact regarding anything they would like to know or say. 
 
 ### Wireframes
 
@@ -143,115 +142,80 @@ The website consists of five separate pages:
 - CSS
 
 ### Frameworks & Tools
-- Bootstrap v5.0
 - Git
 - GitHub
 - Gitpod
-- Tinypng
-- Paint<span>.</span>NET
+- Convertio
+- Canva
 - Balsamiq
+- Adobexd
 - Google Fonts
-- Adobe Color
+- Color Space
 - Font Awsome
-- Favicon<span>.</span>io
+- Favicon
 
 ## Features
-The page consists of five pages and fourteen features
+The page consists of five pages and the main features include training images, links to sign up, ways to contact and connect with the business and client testimonies. 
 
 ### Logo and Navigation Bar
-- Featured on all five pages
-- The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes
-links to the Homepage, About page, Menu page, Gallery and Contact us page
-- It allows users to easily navigate the page
-- The link for the page the user is currently on is highlighted 
+- Featured on all five pages.
+- The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes links to the Homepage, About page, Group training, Private training page and Contact page.
+- If a user hovers over a nav bar option in desktop mode a animated bar shows them which option they are choosing. 
 
-![Logo and navbar](docs/features/feature-logo-and-navbar.jpg)
-
-### Carousel
-- Introduces the user to the restaurant with a small three picture slide show
-- Options for the user to navigate the slide show via back and forward arrows or indicators at the bottom
-
-![Carousel](docs/features/feature-carousel.jpg)
-
-### News
-- Allowes the user to see upcoming events or any news about the restaurant
-- User stories covered: 13
-
-![News](docs/features/feature-news.jpg)
-
-### Meal-deal
-- Allowes users to see what meal-deal is available for the upcoming Sunday
-- User stories covered: 5
-
-![Meal-deal](docs/features/feature-meal-deal.jpg)
+![Logo and navbar](/assets/images/nav-bar.png)
+![Logo and navbar mobile](/assets/images/nav-bar-mobile.png)
 
 ### Footer
-- Featured on all five pages
-- Consists of three seperate sections: contact information, opening times, and social media links
-- User stories covered: 1, 6, 7, 10, 15
+- Featured on all five pages.
+- Consists of two seperate sections: social media links and business details.
 
-![Footer](docs/features/feature-footer.jpg)
+![Footer](/assets/images/footer.png)
 
-### About Us
-- Gives a description of the restaurant and its facilities with a image of the front of the building on the right side
-- User stories covered: 3, 14
+### About 
+- Gives a description of me, my credentials, hobbies, interests and main training philosophy.
 
-![About Us](docs/features/feature-about-us.jpg)
+![About](/assets/images/about.png)
 
-### Customer reviews
-- Features a few reviews left by the restaurants customers on social media
-- User stories covered: 3
+### Client testimonies 
+- Features a few testimonies left by customers
 
-![Reviews](docs/features/feature-reviews.jpg)
+![Testimonies](/assets/images/testimonies.png)
 
-### Meet the Chef
-- Features a short bio of the chef with an image of the chef on the left side
-- User stories covered: 11
+### Group training
+- Features imagery, class timetable and a sign up form for people to get involved.
 
-![Meet the Chef](docs/features/feature-meet-the-chef.jpg)
+![Group Training](/assets/images/class-times.png)
 
-### Menu 
-- Gives an overview of the menu in five sections: starters, main meals, kids meals, dessers, and wine.
-- Each section of the menu is accompanied with an image of one of the items form the menu
-- Features pricing
-- User stories covered: 2, 8
+### Private/Remote training
+- Features imagery, short description of services offered and a sign up form for people to get involved.
 
-![Menu](docs/features/feature-menu.jpg)
+![Private/Remote Training](/assets/images/what-i-offer.png)
 
-### Image Gallery
-- Imagery of the restaurant arranged in a grid
-- User stories covered: 4
+### Images included
+- Some images of myself, private and group fitness classes aloowing users to see the type of environment they would be training in. 
 
-![Gallery](docs/features/feature-gallery.jpg)
+![Images](/assets/images/images.png)
 
-### Promo Video
-- A YouTube video to promote the restaurant 
-- User stories covered: 4
 
-![Video](docs/features/feature-video.jpg)
+### Contact page
+- A way for clients or prospective clients to provide feedback, ask for details, advice, whatever.
 
-### Contact Form
-- A way for user to provide feedback
-- User stories covered: 9, 15
 
-![Contact Form](docs/features/feature-contact-form.jpg)
+![Contact](/assets/images/contact.png)
 
 ### Map
-- Shows the restaurant location on an embeded Google Map
-- User stories covered: 1, 12
+- Shows the group class locations on an embeded Google Map.
 
-![Map](docs/features/feature-map.jpg)
+![Map](/assets/images/map.png)
 
-### Info Box
-- Provides the user with information about the restaurant including addres, phone number, email, and the name of the owner
-- User stories covered: 7, 15
+### User stories covered
+- All of the above highlights user stories 1-13 being covered.
 
-![Info Box](docs/features/feature-info-box.jpg)
 
 ## Validation
 
 ### HTML Validation
-The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors no warnings to show.
+The W3C Markup Validation Service was used to validate the HTML of the website. All pages passed with no errors nor warnings to show.
 <details><summary>Home</summary>
 <img src="docs/validation/validation-html-index.jpg">
 </details>
@@ -317,21 +281,23 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 
 ### Performing tests on various devices 
 The website was tested on the following devices:
-- Lenovo Yoga 2 Pro (both in pc and tablet mode)
-- Honor 20 pro
-- Xiaomi Redmi Note 7
+- HP desktop
+- Macbook
+- iPad
+- iPhone X
+- Huawei mobile
 
-In addition, the website was tested using Google Chrome Developer Tools Device Toggeling option for all available device options.
+In addition, the site was tested using Google Chrome Developer Tools Device Toggeling option for all available device options.
 
 ### Browser compatability
 The website was tested on the following browsers:
 - Google Chrome
 - Mozilla Firefox
-- Microsoft Egde
+- Safari
 
 ### Testing user stories
 
-1. As a first time user, I want to know where the restaurant is lokated
+1. As a first time user, I want to know what services are offered by Paul Thomas PT.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -343,7 +309,8 @@ The website was tested on the following browsers:
 <img src="docs/user-story-testing/user-story-1v2.jpg">
 </details>
 
-2. As a first time user, I want to know the price range
+2. As a first time user, I want to know times, locations and types of classes offered.
+
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -353,7 +320,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-testing/user-story-2.jpg">
 </details>
 
-3. As a first time user, I want to know more about the restaurant
+3. As a first time user, I want to know how to get in contact with the trainer and request more information/ have an initial consultation. 
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -364,7 +331,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-testing/user-story-3-14.jpg">
 </details>
 
-4. As a first time user, I want to get a feel of what to expect at the restaurant
+4. As a first time user, I want to get a feel of what to expect in a group/private fitness class.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -375,7 +342,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-testing/user-story-4.jpg">
 </details>
 
-5. As a returning user, I want to see the Sunday meal offer
+5. As a returning user, I want to see the times, types and locations of classes.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -385,7 +352,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-testing/user-story-5.jpg">
 </details>
 
-6. As a returnign user, I want to know the opening times
+6. As a returnign user, I want to get in contact with the trainer.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -395,7 +362,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-testing/user-story-6.jpg">
 </details>
 
-7. As a returning user, I want to find a phone number to call for reservation
+7. As a returning user, I want to find a social media link to connect with the business.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -407,7 +374,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-testing/user-story-7v2-15.jpg">
 </details>
 
-8. As a returning user, I want to see the menu
+8. As a returning user, I want to find out a little more about Paul Thomas background.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -417,7 +384,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-testing/user-story-8.jpg">
 </details>
 
-9. As a returning user, I want to leave some comment, suggestion or message to the staff
+9. As a returning user, I want to leave some comment, suggestion or message to the staff.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -427,7 +394,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-testing/user-story-9-15.jpg">
 </details>
 
-10. As a returning user, I want to find the restaurant on social media
+10. As a returning user, I want to get directions to the classes.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -437,7 +404,8 @@ The website was tested on the following browsers:
 <img src="docs/user-story-testing/user-story-10.jpg">
 </details>
 
-11. As a returning user, I want to know who is preparing the food
+11. As the site owner, I want users to interact with my brand, get to know me, the services I offer and sign up for more information.
+
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -447,7 +415,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-testing/user-story-11.jpg">
 </details>
 
-12. As a returning user, I want to get directions to the restaurant
+12. As the site owner, I want users to get a feel for the types of services offered.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -457,7 +425,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-testing/user-story-1v1-12.jpg">
 </details>
 
-13. As the site owner, I want users to find news about upcoming events or changes in opening times
+13. As the site owner, I want users to be able to see some client testimonies.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -465,30 +433,6 @@ The website was tested on the following browsers:
 
 <details><summary>Screenshots</summary>
 <img src="docs/user-story-testing/user-story-13.jpg">
-</details>
-
-14. As the site owner, I want users to get to know the restaurant 
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| About Us | Navigate to About page and locate About Us section | See relevant information about the restaurant | Works as expected |
-
-<details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-3-14.jpg">
-</details>
-
-15. As the site owner, I want the users to be able to contact us
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Contact Form | Navigate to the Contact Us Page and locate the contact form, fill out and submit contact form | Data submited via contact form | Works as expectd |
-| Info Box | Navigate to Contact Us page and locate the How to find us section | Find the phone number | Works as expected |
-| Footer - contact information section | On any page scroll down to the footer | Find the phone number | Works as expected |
-
-<details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-7v1-15.jpg">
-<img src="docs/user-story-testing/user-story-7v2-15.jpg">
-<img src="docs/user-story-testing/user-story-9-15.jpg">
 </details>
 
 
@@ -555,3 +499,4 @@ I would like to take the opportunity to thank:
 - My partner Ashley for supporting me, giving me critical feedback and having patience and understanding when I needed to vent my frustrations.
 - To the lovely people on the Code Institute Slack for encouraging all the way.
 - To the Code Institute tutors for helping me with a couple of critical issues.
+- To my coworkers at Hastings school, Madrid for encouraging me and offering me help when needed with workload.

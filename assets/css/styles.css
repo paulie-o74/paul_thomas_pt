@@ -644,7 +644,7 @@ nav a:hover {
 
 .error {
     width: 100%;
-    height: auto;
+    max-height: auto;
     border: 1px solid #white;
     border-radius: 5px;
 }
