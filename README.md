@@ -217,7 +217,7 @@ The page consists of five pages and the main features include training images, l
 ### HTML Validation
 The W3C Markup Validation Service was used to validate the HTML of the website. All pages passed with no errors nor warnings to show.
 <details><summary>Home</summary>
-<img src="/assets/images/">
+<img src="../assets/images/index-validated.png">
 </details>
 <details><summary>About</summary>
 <img src="/assets/images/">
