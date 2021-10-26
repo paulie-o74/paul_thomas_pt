@@ -217,47 +217,44 @@ The page consists of five pages and the main features include training images, l
 ### HTML Validation
 The W3C Markup Validation Service was used to validate the HTML of the website. All pages passed with no errors nor warnings to show.
 <details><summary>Home</summary>
-<img src="docs/validation/validation-html-index.jpg">
+<img src="/assets/images/">
 </details>
 <details><summary>About</summary>
-<img src="docs/validation/validation-html-about.jpg">
+<img src="/assets/images/">
 </details>
-<details><summary>Menu</summary>
-<img src="docs/validation/validation-html-menu.jpg">
+<details><summary>Group Training</summary>
+<img src="/assets/images/">
 </details>
-<details><summary>Gallery</summary>
-<img src="docs/validation/validation-html-gallery.jpg">
+<details><summary>Private Training</summary>
+<img src="/assets/images/">
 </details>
-<details><summary>Home</summary>
-<img src="docs/validation/validation-html-contact.jpg">
+<details><summary>Contact</summary>
+<img src="/assets/images/">
 </details>
 
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
 When validating the page as a whole, the validator shows some errors linked to Bootstrap v5.0. When validating just my own custom CSS it passes with no errors found and some warnings associated to using root variables.
-<details><summary>whole page</summary>
-<img src="docs/validation/validation-css-whole-page.jpg">
-</details>
-<details><summary>style.css</summary>
-<img src="docs/validation/validation-css-style.jpg">
+<details><summary>styles.css</summary>
+<img src="/assets/images/">
 </details>
 
 ### Accessibility
 The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
 <details><summary>Home</summary>
-<img src="docs/validation/validation-accessibility-index.jpg">
+<img src="/assets/images/">
 </details>
 <details><summary>About</summary>
-<img src="docs/validation/validation-accessibility-about.jpg">
+<img src="/assets/images/">
 </details>
-<details><summary>Menu</summary>
-<img src="docs/validation/validation-accessibility-menu.jpg">
+<details><summary>Group Training</summary>
+<img src="/assets/images/">
 </details>
-<details><summary>Gallery</summary>
-<img src="docs/validation/validation-accessibility-gallery.jpg">
+<details><summary>Private Training</summary>
+<img src="/assets/images/">
 </details>
 <details><summary>Contact</summary>
-<img src="docs/validation/validation-accessibility-contact.jpg">
+<img src="/assets/images/">
 </details>
 
 ### Performance 
