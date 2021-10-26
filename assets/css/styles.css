@@ -47,7 +47,6 @@ p {
 
 textarea {
     font-family: source-sans-pro, sans-serif;
-    ;
 }
 
 /* index.html styles index.html styles index.html styles */
@@ -890,6 +889,7 @@ nav a:hover {
 @media screen and (min-width: 970px) {
     .form-container {
         margin: 0 auto;
+    }
     }
 
     /* desktop styles*/
