@@ -50,14 +50,14 @@
 - Increase the number of personal training clients.
 - Increase the number of group training clients.
 - Promote the personal training business and brand.
-- Provide a method for new and existing customers to connect with the buissnes.
+- Provide a method for new and existing customers to connect with the business.
 - Provide a fixed point for all sign ups for the business. 
 
 ## User Experience
 
 ### Target Audience
 - Individuals looking to make a healthy change in their lifestyle.
-- Individuals looking to meet new people in Madrid ciy centre in an active, fun environment.
+- Individuals looking to meet new people in Madrid ciyy centre in an active, fun environment.
 - Groups of individuals looking for a group fitness class.
 - Individuals looking to push themselves further or improve their fitness.
 
@@ -80,7 +80,7 @@
 
 #### Returning User
 5. As a returning user, I want to see the times, types and locations of classes.
-6. As a returnign user, I want to get in contact with the trainer.
+6. As a returning user, I want to get in contact with the trainer.
 7. As a returning user, I want to find a social media link to connect with the business.
 8. As a returning user, I want to find out a little more about Paul Thomas background.
 9. As a returning user, I want to leave some comment, suggestion or message to the staff.
@@ -109,31 +109,33 @@ Roboto was used for the logo and the headings throughout the site. The logic beh
 Source-sans-pro was chosen for the body text of the website, this font combines very well with Roboto and again maintains the clean simplistic approach site-wide. 
 
 ### Structure
-The page is structured in a well know, recognizable, user friendly, and easy to learn way. Upon arriving to the website the user sees a familiar type of navigation bar with the restaurant logo on the left side and the navigation links to the right. 
+The page is structured in a well known, recognizable, user-friendly, and easy to learn manner. Upon arriving at the website the user sees a familiar type of navigation bar with the business' logo on the left side and the navigation links to the right. 
 The website consists of five separate pages: 
 - A homepage with a brief introduction to the services offered, a call to action as well as a short description of "how it works".
 - An about page with information about me, my credentials, background, hobbies and interests to give the user an opportunity to get to know me. 
 - A group training page, with a call to action, group class times and locations, and some information on the types of training offered. 
-- A private training page, with a call to action, 2 options and a breakdown of the different servcies offered. 
+- A private training page, with a call to action, 2 options and a breakdown of the different services offered. 
 - A contact page with a text input area to allow customers to get in contact regarding anything they would like to know or say. 
 
 ### Wireframes
 
-<details><summary>Home</summary>
-<img src="docs/wireframes/wireframes-homepage.png">
-</details>
-<details><summary>About</summary>
-<img src="docs/wireframes/wireframes-about.png">
-</details>
-<details><summary>Menu</summary>
-<img src="docs/wireframes/wireframes-menu.png">
-</details>
-<details><summary>Gallery</summary>
-<img src="docs/wireframes/wireframes-gallery.png">
-</details>
-<details><summary>Contact</summary>
-<img src="docs/wireframes/wireframes-contact.png">
-</details>
+Shown below are the initial wireframes which changed throughout the development process. Reasons include: increasing subject knowledge of UX design and CSS options, removal of bootstrap elements, the need for a cleaner more streamlined design. 
+
+- Home
+![Home](assets/images/index-wire.png)
+
+- About 
+![About](assets/images/about-wire.png)
+
+- Group Training 
+![Group Training ](assets/images/group-wire.png)
+
+- Private Training 
+![Private Training](assets/images/private-wire.png)
+
+- Contact 
+![Contact](assets/images/contact-wire.png)
+
 
 ## Technologies Used
 
@@ -151,7 +153,7 @@ The website consists of five separate pages:
 - Adobexd
 - Google Fonts
 - Color Space
-- Font Awsome
+- Font Awesome
 - Favicon
 
 ## Features
@@ -160,7 +162,7 @@ The page consists of five pages and the main features include training images, l
 ### Logo and Navigation Bar
 - Featured on all five pages.
 - The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes links to the Homepage, About page, Group training, Private training page and Contact page.
-- If a user hovers over a nav bar option in desktop mode a animated bar shows them which option they are choosing. 
+- If a user hovers over a nav bar option in desktop mode an animated bar shows them which option they are choosing. 
 
 ![Logo and navbar](/assets/images/nav-bar.png)
 ![Logo and navbar mobile](/assets/images/nav-bar-mobile.png)
@@ -192,7 +194,7 @@ The page consists of five pages and the main features include training images, l
 ![Private/Remote Training](/assets/images/what-i-offer.png)
 
 ### Images included
-- Some images of myself, private and group fitness classes aloowing users to see the type of environment they would be training in. 
+- Some images of myself, private and group fitness classes allowing users to see the type of environment they would be training in. 
 
 ![Images](/assets/images/images.png)
 
@@ -204,7 +206,7 @@ The page consists of five pages and the main features include training images, l
 ![Contact](/assets/images/contact.png)
 
 ### Map
-- Shows the group class locations on an embeded Google Map.
+- Shows the group class locations on an embedded Google Map.
 
 ![Map](/assets/images/map.png)
 
@@ -253,9 +255,9 @@ The website was tested on the following devices:
 - iPhone X
 - Huawei mobile
 
-In addition, the site was tested using Google Chrome Developer Tools Device Toggeling option for all available device options.
+In addition, the site was tested using Google Chrome Developer Tools Device Toggling option for all available device options.
 
-### Browser compatability
+### Browser compatibility
 The website was tested on the following browsers:
 - Google Chrome
 - Mozilla Firefox
@@ -303,7 +305,7 @@ The website was tested on the following browsers:
 | Group-training page | Navigate to the group training page and locate the class table | Find the class schedule | Works as expected |
 
 
-6. As a returnign user, I want to get in contact with the trainer.
+6. As a returning user, I want to get in contact with the trainer.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -375,18 +377,18 @@ The website was tested on the following browsers:
 
 | **Bug** | **Fix** |
 | ----------- | ----------- |
-| Home page link stays highlighted when visiting another page | Change active atribute to the correct page |
-| The user can submit a contact form input without a message | Add required attribute to message input field |
-| Navbar divides into two rows on xs screen size | Add a media query to remove the right margin of the logo in the navbar on xs screen |
-| Email overflows on xs screen size | Add a media query that makes the divs spread to 100% width on xs sreens to froce the content onto a seperate line |
-| When viewed on tablets, the contact page has whitespace after the footer | Set min-height for body to 100vh |
+| Bootstap link for carousel wouldn't work with burger menu | Change burger menu to only use css (via youtube tutorial) and replace carousel with hero image. |
+| Footer was not displaying the social media links in the desired manner | Remove margin % |
+| Hero image not tucking up under the fixed navbar | Add padding to each page's initial div to set correct alignment |
+| Multiple styling issues throughout the about page | Take out box sizing property from the start of the CSS stylesheet |
+| Embedded google map was not adapting to screen size | Set width and height properties along with max-width |
 
 ## Deployment
 The website was deployed using GitHub Pages by following these steps:
 1. In the GitHub repository navigate to the Settings tab.
 2. Select Pages from the menu on the left hand-side.
 3. For the source select Branch: master.
-4. After the webpage refreshes automaticaly a ribbon on the top says: "Your site is published at "https://rashdogg74.github.io/paul_thomas_pt/"
+4. After the webpage refreshes automatically a ribbon on the top says: "Your site is published at "https://rashdogg74.github.io/paul_thomas_pt/"
 
 You can fork the repository by following these steps:
 1. Go to the GitHub repository.
@@ -405,28 +407,33 @@ You can clone the repository by following these steps:
 Images not referenced below are owned by the developer.
 
 ### Media
-In order of apearance:
-- [carousel-1](assets/images/carousel-1.jpg): Photo by <a href="https://unsplash.com/@heathergill?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Heather Gill</a> on <a href="https://unsplash.com/s/photos/pots-and-pans?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-- [news](assets/images/news.jpg): Photo by <a href="https://unsplash.com/@mareksminder?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Claudia Altamimi</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-- [meal-deal](assets/images/meal-deal.jpg): Photo by <a href="https://unsplash.com/@itssammoqadam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sam Moqadam</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> 
-- [chef](assets/images/chef.jpg): <a href='https://www.freepik.com/photos/food'>Food photo created by freepik - www.freepik.com</a>
-- [menu background](assets/images/menu-background.jpg): <a href="https://www.freepik.com/vectors/background">Background vector created by pikisuperstar - www.freepik.com</a>
-- [starter](assets/images/starter.jpg) Photo by <a href="https://unsplash.com/@margzu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Margarita Zueva</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-- [main meal](assets/images/main-meal.jpg) Photo by <a href="https://unsplash.com/@keriliwi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Keriliwi</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-- [kids meal](assets/images/kids-meal.jpg) Photo by <a href="https://unsplash.com/@itssammoqadam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sam Moqadam</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-- [dessert](assets/images/dessert.jpg) Photo by <a href="https://unsplash.com/@almapapi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Krisztina Papp</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-- [wine](assets/images/wine.jpg) Photo by <a href="https://unsplash.com/@biljaminai?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Biljana Martinic</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-- [salad](assets/images/salad.jpg): Photo by <a href="https://unsplash.com/@itssammoqadam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sam Moqadam</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-- [fish](assets/images/fish.jpg): Photo by <a href="https://unsplash.com/@itssammoqadam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sam Moqadam</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-- [chicken](assets/images/chicken.jpg): Photo by <a href="https://unsplash.com/@itssammoqadam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sam Moqadam</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-- [404 error image](assets/images/404-error.png): <a href='https://www.freepik.com/vectors/background'>Background vector created by freepik - www.freepik.com</a>
+In order of appearance:
+- Photo by <a href="https://unsplash.com/@gabinvallet">Gabin Vallet</a> on <a href="https://unsplash.com/photos/CBnSTRvnfCE">Unsplash</a>
+- Photo by <a href="https://unsplash.com/@gabinvallet">Gabin Vallet</a> on <a href="https://unsplash.com/photos/JVnLqWGWVzs">Unsplash</a>
+- Photo by <a href="https://unsplash.com/@gabinvallet">Gabin Vallet</a> on <a href="https://unsplash.com/photos/J154nEkpzlQ">Unsplash</a>
+- Photo by <a href="hhttps://unsplash.com/@lgnwvr">Logan Weaver</a> on <a href="https://unsplash.com/photos/LjI2ZwN72a0">Unsplash</a>
+- Photo by <a href="https://unsplash.com/@karsten116">Karsten Winegeart</a> on <a href="https://unsplash.com/photos/0Wra5YYVQJE">Unsplash</a>
+- Photo by <a href="https://unsplash.com/@grahammansfield1">Graham Mansfield</a> on <a href="https://unsplash.com/photos/2j6IzAIbifQ">Unsplash</a>
+- Photo by <a href="https://unsplash.com/@jonathanborba">Jonathan Borba</a> on <a href="https://unsplash.com/photos/R0y_bEUjiOM">Unsplash</a>
+- Photo by <a href="https://unsplash.com/@rimakruciene">Rima Kruciene</a> on <a href="https://unsplash.com/photos/Tq9Ln3gpiG4">Unsplash</a>
+- Photo by <a href="https://unsplash.com/@awilx6">Austin Wilcox</a> on <a href="https://unsplash.com/photos/HCeifKAhHNE">Unsplash</a>
+- Photo by <a href="https://unsplash.com/@krakenimages">krakenimages</a> on <a href="https://unsplash.com/photos/4l8UH4G2_Dg">Unsplash</a>
+- Photo by <a href="https://unsplash.com/@gabinvallet">Gabin Vallet</a> on <a href="https://unsplash.com/photos/YxCrQm9XNgg">Unsplash</a>
+- Photo by <a href="https://unsplash.com/@solomac">Adam Solomon</a> on <a href="https://unsplash.com/photos/WHUDOzd5IYU">Unsplash</a>
+- Photo by <a href="https://unsplash.com/@woodies11">Romson Preechawit</a> on <a href="https://unsplash.com/photos/Vy2cHqm0mCs">Unsplash</a>
+
+
+
+
+
+
   
 ### Code
-In order of apearance:
-- The HTML for the responsive [Navbar with toggler](https://getbootstrap.com/docs/5.0/components/navbar/#toggler) was taken from the Bootstrap v5.0 documentation code snippet and combined with their [Navbar with Pills](https://getbootstrap.com/docs/5.0/components/navs-tabs/#pills)
-- [Carousel](https://getbootstrap.com/docs/5.0/components/carousel/#with-indicators) on index page was taken from Bootrap v5.0 documentation code snippet
-- CSS code to avoid whitespace below footer was taken from a forum post on [FreeCodeCamp](https://forum.freecodecamp.org/t/footer-white-space-below/191360)
-- 404 page was build using description on [GitHub Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
+In order of appearance:
+- The HTML for the responsive [Navbar with no JS](https://www.youtube.com/watch?v=8QKOaTYvYUA&ab_channel=KevinPowell) was learned from Kevin Powell on Youtube.
+- [Table styling](https://www.youtube.com/watch?v=biI9OFH6Nmg&ab_channel=dcode) was learned from dcode on Youtube.
+- [Mobile first responsive design](https://www.youtube.com/watch?v=PM3XW_1RAIs&list=PL4cUxeGkcC9hH1tAjyUPZPjbj-7s200a4&index=1&ab_channel=TheNetNinja) was learned from the net ninja on Youtube.
+- 404 page was build using description on [GitHub Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site) and (https://www.youtube.com/watch?v=kPtS4vO42II&ab_channel=DaniKrossing) Dani Krossing on youtube. 
 
 ## Acknowledgements
 I would like to take the opportunity to thank:
