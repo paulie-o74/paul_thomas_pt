@@ -160,55 +160,81 @@ Shown below are the initial wireframes which changed throughout the development 
 The page consists of five pages and the main features include training images, links to sign up, ways to contact and connect with the business and client testimonies. 
 
 ### Logo and Navigation Bar
+<details>
+<summary>Screenshot nav bar</summary>
+<img src="assets/images/nav-bar.png" width="500">
+</details>
+<details>
+<summary>Screenshot nav bar mobile</summary>
+<img src="assets/images/nav-bar-mobile.png" width="500">
+</details>
 - Featured on all five pages.
 - The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes links to the Homepage, About page, Group training, Private training page and Contact page.
 - If a user hovers over a nav bar option in desktop mode an animated bar shows them which option they are choosing. 
 
-![Logo and navbar](/assets/images/nav-bar.png)
-![Logo and navbar mobile](/assets/images/nav-bar-mobile.png)
-
 ### Footer
+<details>
+<summary>Screenshot</summary>
+<img src="assets/images/footer.png" width="500">
+</details>
 - Featured on all five pages.
 - Consists of two seperate sections: social media links and business details.
 
-![Footer](/assets/images/footer.png)
-
 ### About 
+<details>
+<summary>Screenshot</summary>
+<img src="assets/images/about.png" width="500">
+</details>
 - Gives a description of me, my credentials, hobbies, interests and main training philosophy.
 
-![About](/assets/images/about.png)
 
 ### Client testimonies 
+<details>
+<summary>Screenshot</summary>
+<img src="assets/images/testimonies.png" width="500">
+</details>
 - Features a few testimonies left by customers
 
-![Testimonies](/assets/images/testimonies.png)
 
 ### Group training
+<details>
+<summary>Screenshot</summary>
+<img src="assets/images/class-times.png" width="500">
+</details>
 - Features imagery, class timetable and a sign up form for people to get involved.
 
-![Group Training](/assets/images/class-times.png)
 
-### Private/Remote training
+### Private/Remote 
+<details>
+<summary>Screenshot</summary>
+<img src="assets/images/what-i-offer.png" width="500">
+</details>
 - Features imagery, short description of services offered and a sign up form for people to get involved.
 
-![Private/Remote Training](/assets/images/what-i-offer.png)
 
 ### Images included
+<details>
+<summary>Screenshot</summary>
+<img src="assets/images/images.png" width="500">
+</details>
 - Some images of myself, private and group fitness classes allowing users to see the type of environment they would be training in. 
 
-![Images](/assets/images/images.png)
 
 
 ### Contact page
+<details>
+<summary>Screenshot</summary>
+<img src="assets/images/contact.png" width="500">
+</details>
 - A way for clients or prospective clients to provide feedback, ask for details, advice, whatever.
 
 
-![Contact](/assets/images/contact.png)
-
 ### Map
+<details>
+<summary>Screenshot</summary>
+<img src="assets/images/map.png" width="500">
+</details>
 - Shows the group class locations on an embedded Google Map.
-
-![Map](/assets/images/map.png)
 
 ### User stories covered
 - All of the above highlights user stories 1-13 being covered.
@@ -219,33 +245,84 @@ The page consists of five pages and the main features include training images, l
 ### HTML Validation
 The W3C Markup Validation Service was used to validate the HTML of the website. All pages passed with no errors nor warnings to show.
 
-![Home](/assets/images/index-validated.png)
-![About](/assets/images/about-validated.png)
-![Group-Training](/assets/images/group-validated.png)
-![Private-Training](/assets/images/private-training.png)
-![Contact](/assets/images/contact-validated.png)
+<details>
+<summary>Home</summary>
+<img src="assets/images/index-validated.png" width="500">
+</details>
+<details>
+<summary>About</summary>
+<img src="assets/images/about-validated.png" width="500">
+</details>
+<details>
+<summary>Group Training</summary>
+<img src="assets/images/group-validated.png" width="500">
+</details>
+<details>
+<summary>Private Training</summary>
+<img src="assets/images/private-validated.png" width="500">
+</details>
+<details>
+<summary>Contact</summary>
+<img src="assets/images/contact-validated.png" width="500">
+</details>
+
 
 ### CSS Validation
+<details>
+<summary>Screenshot</summary>
+<img src="assets/images/css-validation.png" width="500">
+</details>
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
 When validating the page as a whole, the validator shows some errors linked to Bootstrap v5.0. When validating just my own custom CSS it passes with no errors found and some warnings associated to using root variables.
-![CSS](/assets/images/css-validation.png)
+
 
 ### Accessibility
 The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 1 errors. This error is due to a label which must be included for the toggle menu (burger menu) to work functionally only using CSS (no bootstrap).
-![Home](/assets/images/index-acc.png)
-![About](/assets/images/about-acc.png)
-![Group-Training](/assets/images/group-acc.png)
-![Private-Training](/assets/images/private-acc.png)
-![Contact](/assets/images/contact-acc.png)
+<details>
+<summary>Home</summary>
+<img src="assets/images/index-acc.png" width="500">
+</details>
+<details>
+<summary>About</summary>
+<img src="assets/images/about-acc.png" width="500">
+</details>
+<details>
+<summary>Group Training</summary>
+<img src="assets/images/group-acc.png" width="500">
+</details>
+<details>
+<summary>Private Training</summary>
+<img src="assets/images/private-acc.png" width="500">
+</details>
+<details>
+<summary>Contact</summary>
+<img src="assets/images/contact-acc.png" width="500">
+</details>
 
 ### Performance 
 Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. The best practices score was lower than expected becuase of large images sizes. 
 
-![Home](/assets/images/index-light.png)
-![About](/assets/images/about-light.png)
-![Group-Training](/assets/images/group-light.png)
-![Private-Training](/assets/images/private-light.png)
-![Contact](/assets/images/contact-light.png)
+<details>
+<summary>Home</summary>
+<img src="assets/images/index-light.png" width="500">
+</details>
+<details>
+<summary>About</summary>
+<img src="assets/images/about-light.png" width="500">
+</details>
+<details>
+<summary>Group training</summary>
+<img src="assets/images/group-light.png" width="500">
+</details>
+<details>
+<summary>Private Training</summary>
+<img src="assets/images/private-light.png" width="500">
+</details>
+<details>
+<summary>Contact</summary>
+<img src="assets/images/contact-light.png" width="500">
+</details>
+
 
 ### Performing tests on various devices 
 The website was tested on the following devices:
